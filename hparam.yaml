@@ -1,0 +1,155 @@
+# ################################
+# Model: seq2seq ASR on TIMIT with wav2vec2 + CTC/Attention
+# Authors:
+# * Titouan Parcollet 2021
+# ################################
+
+# Seed needs to be set at top of yaml, before objects with parameters are made
+seed: 1234
+__set_seed: !apply:torch.manual_seed [!ref <seed>]
+output_folder: !ref results/augment_noise_CRDNN/<seed>
+wer_file: !ref <output_folder>/wer.txt
+save_folder: !ref <output_folder>/save
+train_log: !ref <output_folder>/train_log.txt
+
+# URL for the biggest Fairseq english wav2vec2 model.
+wav2vec2_hub: "facebook/wav2vec2-large-lv60"
+
+# Data files
+data_folder: ./dataset/ # e.g. /path/to/data_set
+train_annotation: !ref <output_folder>/train.json
+valid_annotation: !ref <output_folder>/dev.json
+test_annotation: !ref <output_folder>/test.json
+skip_prep: False # Skip data preparation
+apply_data_augmentation: False
+
+nb_command : 108 # Nb of full_command
+
+#ckpt_interval_minutes: 15 # save checkpoint every N min
+
+# kfold
+
+k_fold: 1
+
+# Training parameters
+number_of_epochs: 20
+batch_size: 8
+lr: 0.0003
+lr_wav2vec: 0.0001
+ctc_weight: 0.2
+sorting: ascending
+auto_mix_prec: False
+sample_rate: 16000
+
+# Model parameters
+activation: !name:torch.nn.LeakyReLU
+dnn_neurons: 1024
+
+
+freeze_wav2vec: True
+
+# Outputs
+output_neurons: !ref <nb_command>
+
+# Dataloader options
+train_dataloader_opts:
+    batch_size: !ref <batch_size>
+    num_workers: !ref <batch_size>
+
+valid_dataloader_opts:
+    batch_size: !ref <batch_size>
+    num_workers: !ref <batch_size>
+
+test_dataloader_opts:
+    batch_size: !ref <batch_size>
+    num_workers: !ref <batch_size>
+
+augmentation: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
+    sample_rate: !ref <sample_rate>
+    speeds: [95, 100, 105]
+
+epoch_counter: !new:speechbrain.utils.epoch_loop.EpochCounter
+    limit: !ref <number_of_epochs>
+
+
+wav2vec2: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
+    source: !ref <wav2vec2_hub>
+    output_norm: True
+    freeze: !ref <freeze_wav2vec>
+    save_path: !ref <save_folder>/wav2vec2_checkpoint
+
+#####
+# Uncomment this block if you prefer to use a Fairseq pretrained model instead
+# of a HuggingFace one. Here, we provide an URL that is obtained from the
+# Fairseq github for an equivalent model compared to HuggingFace.
+#
+#wav2vec2_url: https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_vox_new.pt
+#wav2vec2: !new:speechbrain.lobes.models.fairseq_wav2vec.FairseqWav2Vec2
+#    pretrained_path: !ref <wav2vec2_url>
+#    output_norm: True
+#    freeze: False
+#    save_path: !ref <save_folder>/wav2vec2_checkpoint/model.pt
+#####
+
+
+dnn: !new:speechbrain.nnet.linear.Linear
+    n_neurons: !ref <output_neurons>
+    input_shape: [null, !ref <dnn_neurons>]
+
+
+softmax: !new:speechbrain.nnet.activations.Softmax
+    apply_log: True
+
+adam_opt_class: !name:torch.optim.Adam
+    lr: !ref <lr>
+
+
+opt_class: !name:torch.optim.Adam
+    lr: !ref <lr>
+    weight_decay: 0.000002
+
+wav2vec_opt_class: !name:torch.optim.Adam
+    lr: !ref <lr_wav2vec>
+
+lr_annealing_adam: !new:speechbrain.nnet.schedulers.NewBobScheduler
+    initial_value: !ref <lr>
+    improvement_threshold: 0.0025
+    annealing_factor: 0.8
+    patient: 0
+
+lr_annealing_wav2vec: !new:speechbrain.nnet.schedulers.NewBobScheduler
+    initial_value: !ref <lr_wav2vec>
+    improvement_threshold: 0.0025
+    annealing_factor: 0.9
+
+mean_var_norm: !new:speechbrain.processing.features.InputNormalization
+    norm_type: sentence
+    std_norm: False
+
+modules:
+    dnn: !ref <dnn>
+    wav2vec2: !ref <wav2vec2>
+    softmax: !ref <softmax>
+    mean_var_norm: !ref <mean_var_norm>
+
+# Cost + optimization
+compute_cost: !name:speechbrain.nnet.losses.nll_loss
+compute_error: !name:speechbrain.nnet.losses.classification_error
+
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+    checkpoints_dir: !ref <save_folder>
+    recoverables:
+        dnn : !ref <dnn>
+        normalizer: !ref <mean_var_norm>
+        wav2vec2: !ref <wav2vec2>
+        lr_annealing_adam: !ref <lr_annealing_adam>
+        lr_annealing_wav2vec: !ref <lr_annealing_wav2vec>
+        counter: !ref <epoch_counter>
+
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+    save_file: !ref <train_log>
+
+
+error_stats: !name:speechbrain.utils.metric_stats.MetricStats
+    metric: !name:speechbrain.nnet.losses.classification_error
+        reduction: batch

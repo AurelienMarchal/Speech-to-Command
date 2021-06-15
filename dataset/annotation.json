@@ -1,0 +1,5402 @@
+{
+    "move_red_far_from_blue_sk3xvsd8cc": {
+        "full_command": "move red far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_blue_sk3xvsd8cc.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "stack_green_on_red_5l5mzgwfq0": {
+        "full_command": "stack green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_red_5l5mzgwfq0.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "move_red_far_from_blue_95scc3hhui": {
+        "full_command": "move red far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_blue_95scc3hhui.wav",
+        "duration": 2.64,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_red_far_from_blue_e3yvcvb9gl": {
+        "full_command": "move red far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_blue_e3yvcvb9gl.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_red_far_from_blue_4m974zsmgm": {
+        "full_command": "move red far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_blue_4m974zsmgm.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_red_far_from_blue_evkr5vpk6r": {
+        "full_command": "move red far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_blue_evkr5vpk6r.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_red_far_from_green_w751tqt7fa": {
+        "full_command": "move red far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_green_w751tqt7fa.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_red_far_from_green_nq487mwk01": {
+        "full_command": "move red far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_green_nq487mwk01.wav",
+        "duration": 2.88,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_red_far_from_green_3oxucqs2ox": {
+        "full_command": "move red far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_green_3oxucqs2ox.wav",
+        "duration": 3.09,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_red_far_from_green_5f7w9r3sgd": {
+        "full_command": "move red far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_green_5f7w9r3sgd.wav",
+        "duration": 3.06,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_red_far_from_green_1fx4dlj8wt": {
+        "full_command": "move red far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_green_1fx4dlj8wt.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_red_far_from_yellow_acq1669zql": {
+        "full_command": "move red far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_yellow_acq1669zql.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_red_far_from_yellow_rhg03newve": {
+        "full_command": "move red far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_yellow_rhg03newve.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_red_far_from_yellow_v1id2n3nbt": {
+        "full_command": "move red far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_yellow_v1id2n3nbt.wav",
+        "duration": 2.82,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_red_far_from_yellow_8tt4cpdxr1": {
+        "full_command": "move red far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_yellow_8tt4cpdxr1.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_red_far_from_yellow_3dhmdv5pk0": {
+        "full_command": "move red far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_far_from_yellow_3dhmdv5pk0.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_red_near_blue_b12ql3pvxj": {
+        "full_command": "move red near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_blue_b12ql3pvxj.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_red_near_blue_481hs2h5md": {
+        "full_command": "move red near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_blue_481hs2h5md.wav",
+        "duration": 3.09,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_red_near_blue_oel86igm0v": {
+        "full_command": "move red near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_blue_oel86igm0v.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_red_near_blue_xeupw1u4ua": {
+        "full_command": "move red near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_blue_xeupw1u4ua.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_red_near_blue_l54xpfzkox": {
+        "full_command": "move red near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_blue_l54xpfzkox.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_red_near_green_8s6rzqs6z3": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_8s6rzqs6z3.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_green_ub7r8dhiro": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_ub7r8dhiro.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_green_xn6jpgz72v": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_xn6jpgz72v.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_green_7dg5irb9xl": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_7dg5irb9xl.wav",
+        "duration": 3.36,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_green_y7zuqfpgb7": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_y7zuqfpgb7.wav",
+        "duration": 2.88,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_green_qqtrf7vlmv": {
+        "full_command": "move red near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_green_qqtrf7vlmv.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_red_near_yellow_gmb13viea3": {
+        "full_command": "move red near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_yellow_gmb13viea3.wav",
+        "duration": 3.39,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_red_near_yellow_1dj69ejr8h": {
+        "full_command": "move red near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_yellow_1dj69ejr8h.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_red_near_yellow_qbfi55cg2a": {
+        "full_command": "move red near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_yellow_qbfi55cg2a.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_red_near_yellow_s3oi0d7eq1": {
+        "full_command": "move red near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_red_near_yellow_s3oi0d7eq1.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "red",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_blue_far_from_red_ix2cwic9vo": {
+        "full_command": "move blue far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_red_ix2cwic9vo.wav",
+        "duration": 3,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_blue_far_from_red_ltn29drp0l": {
+        "full_command": "move blue far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_red_ltn29drp0l.wav",
+        "duration": 2.82,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_blue_far_from_red_7jp7amp0xl": {
+        "full_command": "move blue far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_red_7jp7amp0xl.wav",
+        "duration": 2.79,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_blue_far_from_red_j6qxbm2i25": {
+        "full_command": "move blue far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_red_j6qxbm2i25.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_blue_far_from_red_l9w27wg1ll": {
+        "full_command": "move blue far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_red_l9w27wg1ll.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_blue_far_from_green_t89tp3nb4h": {
+        "full_command": "move blue far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_green_t89tp3nb4h.wav",
+        "duration": 3.51,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_blue_far_from_green_u5fjsvbnyj": {
+        "full_command": "move blue far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_green_u5fjsvbnyj.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_blue_far_from_green_arbkgojgtd": {
+        "full_command": "move blue far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_green_arbkgojgtd.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_blue_far_from_green_5a9iqfg0ik": {
+        "full_command": "move blue far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_green_5a9iqfg0ik.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_blue_far_from_green_1qkcdtes0b": {
+        "full_command": "move blue far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_green_1qkcdtes0b.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_blue_far_from_yellow_8lmwfmsxkj": {
+        "full_command": "move blue far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_yellow_8lmwfmsxkj.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_blue_far_from_yellow_b88b4ds0kf": {
+        "full_command": "move blue far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_yellow_b88b4ds0kf.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_blue_far_from_yellow_tleatp000p": {
+        "full_command": "move blue far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_yellow_tleatp000p.wav",
+        "duration": 2.82,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_blue_far_from_yellow_44ar9kt0be": {
+        "full_command": "move blue far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_yellow_44ar9kt0be.wav",
+        "duration": 2.67,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_blue_far_from_yellow_jz5ky4qo33": {
+        "full_command": "move blue far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_far_from_yellow_jz5ky4qo33.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_blue_near_red_y8bcnx65fe": {
+        "full_command": "move blue near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_red_y8bcnx65fe.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_blue_near_red_lu2r8lg6w4": {
+        "full_command": "move blue near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_red_lu2r8lg6w4.wav",
+        "duration": 2.79,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_blue_near_red_ujig8pegnv": {
+        "full_command": "move blue near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_red_ujig8pegnv.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_blue_near_red_0kqn3q1h1v": {
+        "full_command": "move blue near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_red_0kqn3q1h1v.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_blue_near_red_huhx3k9eq0": {
+        "full_command": "move blue near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_red_huhx3k9eq0.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_blue_near_green_m7arqho54d": {
+        "full_command": "move blue near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_green_m7arqho54d.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_blue_near_green_zgod23vivf": {
+        "full_command": "move blue near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_green_zgod23vivf.wav",
+        "duration": 2.58,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_blue_near_green_g5bvcwbwkp": {
+        "full_command": "move blue near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_green_g5bvcwbwkp.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_blue_near_green_4qkbvoik5f": {
+        "full_command": "move blue near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_green_4qkbvoik5f.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_blue_near_green_cq1zgk0wj7": {
+        "full_command": "move blue near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_green_cq1zgk0wj7.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_blue_near_yellow_4khqacakx4": {
+        "full_command": "move blue near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_yellow_4khqacakx4.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_blue_near_yellow_h2hfkudpz5": {
+        "full_command": "move blue near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_yellow_h2hfkudpz5.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_blue_near_yellow_tta9d546mu": {
+        "full_command": "move blue near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_yellow_tta9d546mu.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_blue_near_yellow_80vbqzeo6w": {
+        "full_command": "move blue near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_yellow_80vbqzeo6w.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_blue_near_yellow_iuvl3ckzgy": {
+        "full_command": "move blue near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_blue_near_yellow_iuvl3ckzgy.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "blue",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_green_far_from_red_2moarzshkt": {
+        "full_command": "move green far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_red_2moarzshkt.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_green_far_from_red_bgm4pqwaok": {
+        "full_command": "move green far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_red_bgm4pqwaok.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_green_far_from_red_14j7b8vekj": {
+        "full_command": "move green far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_red_14j7b8vekj.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_green_far_from_red_3r1v1i51k9": {
+        "full_command": "move green far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_red_3r1v1i51k9.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_green_far_from_red_ipivi2tv7t": {
+        "full_command": "move green far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_red_ipivi2tv7t.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_green_far_from_blue_9p3m8qqndu": {
+        "full_command": "move green far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_blue_9p3m8qqndu.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_green_far_from_blue_vr8c3ikgiv": {
+        "full_command": "move green far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_blue_vr8c3ikgiv.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_green_far_from_blue_4r622btub9": {
+        "full_command": "move green far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_blue_4r622btub9.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_green_far_from_blue_kd7u4ol984": {
+        "full_command": "move green far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_blue_kd7u4ol984.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_green_far_from_blue_foak5squqa": {
+        "full_command": "move green far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_blue_foak5squqa.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_green_far_from_yellow_4b042r2vfs": {
+        "full_command": "move green far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_yellow_4b042r2vfs.wav",
+        "duration": 3.06,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_green_far_from_yellow_7bi17zwkea": {
+        "full_command": "move green far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_yellow_7bi17zwkea.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_green_far_from_yellow_6vul9p9xoo": {
+        "full_command": "move green far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_yellow_6vul9p9xoo.wav",
+        "duration": 2.94,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_green_far_from_yellow_1c8i2qa6q6": {
+        "full_command": "move green far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_yellow_1c8i2qa6q6.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_green_far_from_yellow_02tussgga0": {
+        "full_command": "move green far_from yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_far_from_yellow_02tussgga0.wav",
+        "duration": 3.12,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "far_from",
+        "obj2": "yellow"
+    },
+    "move_green_near_red_vpo3s7xpu5": {
+        "full_command": "move green near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_red_vpo3s7xpu5.wav",
+        "duration": 3.45,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_green_near_red_zgmsjrwx44": {
+        "full_command": "move green near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_red_zgmsjrwx44.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_green_near_red_37mlt8rc5h": {
+        "full_command": "move green near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_red_37mlt8rc5h.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_green_near_red_g3emdkbt5p": {
+        "full_command": "move green near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_red_g3emdkbt5p.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_green_near_red_ehwxcljxkn": {
+        "full_command": "move green near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_red_ehwxcljxkn.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_green_near_blue_86900fibcu": {
+        "full_command": "move green near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_blue_86900fibcu.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_green_near_blue_7u7odkxg0e": {
+        "full_command": "move green near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_blue_7u7odkxg0e.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_green_near_blue_nx6yyvm9bu": {
+        "full_command": "move green near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_blue_nx6yyvm9bu.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_green_near_blue_ntclbjkava": {
+        "full_command": "move green near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_blue_ntclbjkava.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_green_near_blue_3zami1wtqp": {
+        "full_command": "move green near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_blue_3zami1wtqp.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_green_near_yellow_tlpdvh4fzb": {
+        "full_command": "move green near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_yellow_tlpdvh4fzb.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_green_near_yellow_jw5mz17rv6": {
+        "full_command": "move green near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_yellow_jw5mz17rv6.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_green_near_yellow_cex8r58gff": {
+        "full_command": "move green near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_yellow_cex8r58gff.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_green_near_yellow_f5b2xxutyf": {
+        "full_command": "move green near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_yellow_f5b2xxutyf.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_green_near_yellow_uhnvkak6vw": {
+        "full_command": "move green near yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/move_green_near_yellow_uhnvkak6vw.wav",
+        "duration": 1.41,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "green",
+        "prep": "near",
+        "obj2": "yellow"
+    },
+    "move_yellow_far_from_red_3mmzhlcwiy": {
+        "full_command": "move yellow far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_red_3mmzhlcwiy.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_yellow_far_from_red_omwi5n40xh": {
+        "full_command": "move yellow far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_red_omwi5n40xh.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_yellow_far_from_red_5thehpjxdp": {
+        "full_command": "move yellow far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_red_5thehpjxdp.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_yellow_far_from_red_6we9bckedp": {
+        "full_command": "move yellow far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_red_6we9bckedp.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_yellow_far_from_red_v8oxj1ludk": {
+        "full_command": "move yellow far_from red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_red_v8oxj1ludk.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "red"
+    },
+    "move_yellow_far_from_blue_a1phgimqht": {
+        "full_command": "move yellow far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_blue_a1phgimqht.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_yellow_far_from_blue_0flqzp7km9": {
+        "full_command": "move yellow far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_blue_0flqzp7km9.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_yellow_far_from_blue_l7ngk1h74b": {
+        "full_command": "move yellow far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_blue_l7ngk1h74b.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_yellow_far_from_blue_s52p0podpo": {
+        "full_command": "move yellow far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_blue_s52p0podpo.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_yellow_far_from_blue_4tyv7scn0c": {
+        "full_command": "move yellow far_from blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_blue_4tyv7scn0c.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "blue"
+    },
+    "move_yellow_far_from_green_i15kw96nof": {
+        "full_command": "move yellow far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_green_i15kw96nof.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_yellow_far_from_green_eocnce2xre": {
+        "full_command": "move yellow far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_green_eocnce2xre.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_yellow_far_from_green_bdsx43vnap": {
+        "full_command": "move yellow far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_green_bdsx43vnap.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_yellow_far_from_green_sy5jjl6ywk": {
+        "full_command": "move yellow far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_green_sy5jjl6ywk.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_yellow_far_from_green_dfswpbu200": {
+        "full_command": "move yellow far_from green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_far_from_green_dfswpbu200.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "far_from",
+        "obj2": "green"
+    },
+    "move_yellow_near_red_g5jkj88d60": {
+        "full_command": "move yellow near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_red_g5jkj88d60.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_yellow_near_red_c7azge0s0a": {
+        "full_command": "move yellow near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_red_c7azge0s0a.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_yellow_near_red_2qmxygwbd4": {
+        "full_command": "move yellow near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_red_2qmxygwbd4.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_yellow_near_red_58970t4yje": {
+        "full_command": "move yellow near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_red_58970t4yje.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_yellow_near_red_ly5suvataq": {
+        "full_command": "move yellow near red",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_red_ly5suvataq.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "red"
+    },
+    "move_yellow_near_blue_ae0gnxbygv": {
+        "full_command": "move yellow near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_blue_ae0gnxbygv.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_yellow_near_blue_6delovkmrv": {
+        "full_command": "move yellow near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_blue_6delovkmrv.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_yellow_near_blue_4p1ngs2aum": {
+        "full_command": "move yellow near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_blue_4p1ngs2aum.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_yellow_near_blue_r3rqni6dre": {
+        "full_command": "move yellow near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_blue_r3rqni6dre.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_yellow_near_blue_z7aswe9i19": {
+        "full_command": "move yellow near blue",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_blue_z7aswe9i19.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "blue"
+    },
+    "move_yellow_near_green_zdphwah9se": {
+        "full_command": "move yellow near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_green_zdphwah9se.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_yellow_near_green_gx1ui3qagm": {
+        "full_command": "move yellow near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_green_gx1ui3qagm.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_yellow_near_green_lmg8cijfcw": {
+        "full_command": "move yellow near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_green_lmg8cijfcw.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_yellow_near_green_m2ot4bzux7": {
+        "full_command": "move yellow near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_green_m2ot4bzux7.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "move_yellow_near_green_8a31qr8bp1": {
+        "full_command": "move yellow near green",
+        "wav": "./dataset/wavs/aurelien_marchal/move_yellow_near_green_8a31qr8bp1.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "move",
+        "obj1": "yellow",
+        "prep": "near",
+        "obj2": "green"
+    },
+    "stack_red_on_blue_59rf9em1fd": {
+        "full_command": "stack red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_blue_59rf9em1fd.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_red_on_blue_trbzaoidmd": {
+        "full_command": "stack red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_blue_trbzaoidmd.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_red_on_blue_rqrq5q5375": {
+        "full_command": "stack red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_blue_rqrq5q5375.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_red_on_blue_6ycs2v4qkh": {
+        "full_command": "stack red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_blue_6ycs2v4qkh.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_red_on_blue_8nwjyz0hex": {
+        "full_command": "stack red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_blue_8nwjyz0hex.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_red_on_green_rb701841q1": {
+        "full_command": "stack red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_green_rb701841q1.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_red_on_green_y4fdz97n3d": {
+        "full_command": "stack red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_green_y4fdz97n3d.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_red_on_green_adex36w3h2": {
+        "full_command": "stack red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_green_adex36w3h2.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_red_on_green_ba24s2upr6": {
+        "full_command": "stack red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_green_ba24s2upr6.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_red_on_green_aniu6mkt2o": {
+        "full_command": "stack red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_green_aniu6mkt2o.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_red_on_yellow_u22eb9yd1h": {
+        "full_command": "stack red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_yellow_u22eb9yd1h.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_red_on_yellow_c0dzsgeokw": {
+        "full_command": "stack red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_yellow_c0dzsgeokw.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_red_on_yellow_2qusjln9t7": {
+        "full_command": "stack red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_yellow_2qusjln9t7.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_red_on_yellow_1nguh4d8pt": {
+        "full_command": "stack red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_yellow_1nguh4d8pt.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_red_on_yellow_pg3jkhmtq8": {
+        "full_command": "stack red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_red_on_yellow_pg3jkhmtq8.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_blue_on_red_qe51k3c918": {
+        "full_command": "stack blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_red_qe51k3c918.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_blue_on_red_p6kptzr6jv": {
+        "full_command": "stack blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_red_p6kptzr6jv.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_blue_on_red_yyb69v1aha": {
+        "full_command": "stack blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_red_yyb69v1aha.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_blue_on_red_zs9op48hqz": {
+        "full_command": "stack blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_red_zs9op48hqz.wav",
+        "duration": 1.5,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_blue_on_red_o2zculgnyk": {
+        "full_command": "stack blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_red_o2zculgnyk.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_blue_on_green_k2dionbr74": {
+        "full_command": "stack blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_green_k2dionbr74.wav",
+        "duration": 1.56,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_blue_on_green_tje1hhjt30": {
+        "full_command": "stack blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_green_tje1hhjt30.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_blue_on_green_f8t7zca92b": {
+        "full_command": "stack blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_green_f8t7zca92b.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_blue_on_green_tglkbnbzei": {
+        "full_command": "stack blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_green_tglkbnbzei.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_blue_on_green_fgbpgofrb6": {
+        "full_command": "stack blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_green_fgbpgofrb6.wav",
+        "duration": 1.59,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_blue_on_yellow_xe8w1sn6w3": {
+        "full_command": "stack blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_yellow_xe8w1sn6w3.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_blue_on_yellow_gbxum5izss": {
+        "full_command": "stack blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_yellow_gbxum5izss.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_blue_on_yellow_45xn9kb9nu": {
+        "full_command": "stack blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_yellow_45xn9kb9nu.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_blue_on_yellow_6q390h5uiy": {
+        "full_command": "stack blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_yellow_6q390h5uiy.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_blue_on_yellow_gr6jzqpchl": {
+        "full_command": "stack blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_blue_on_yellow_gr6jzqpchl.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_green_on_red_j5rzo3mhom": {
+        "full_command": "stack green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_red_j5rzo3mhom.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_green_on_red_jgv443pi1i": {
+        "full_command": "stack green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_red_jgv443pi1i.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_green_on_red_upb177t1br": {
+        "full_command": "stack green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_red_upb177t1br.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_green_on_red_6sm97mk1ei": {
+        "full_command": "stack green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_red_6sm97mk1ei.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_green_on_blue_ts150fu0k1": {
+        "full_command": "stack green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_blue_ts150fu0k1.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_green_on_blue_n6lwz1g1sd": {
+        "full_command": "stack green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_blue_n6lwz1g1sd.wav",
+        "duration": 1.62,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_green_on_blue_j08zhyieiu": {
+        "full_command": "stack green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_blue_j08zhyieiu.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_green_on_blue_912v03rz7o": {
+        "full_command": "stack green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_blue_912v03rz7o.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_green_on_blue_mxk67nd4ns": {
+        "full_command": "stack green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_blue_mxk67nd4ns.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_green_on_yellow_wadqwnvuxg": {
+        "full_command": "stack green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_yellow_wadqwnvuxg.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_green_on_yellow_xqrqxx7xyw": {
+        "full_command": "stack green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_yellow_xqrqxx7xyw.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_green_on_yellow_9z6afhfgb0": {
+        "full_command": "stack green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_yellow_9z6afhfgb0.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_green_on_yellow_4x820tbq2x": {
+        "full_command": "stack green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_yellow_4x820tbq2x.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_green_on_yellow_4xyamjmnyk": {
+        "full_command": "stack green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_green_on_yellow_4xyamjmnyk.wav",
+        "duration": 1.53,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "stack_yellow_on_red_d54e8mhztu": {
+        "full_command": "stack yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_red_d54e8mhztu.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_yellow_on_red_nu6p8iohxm": {
+        "full_command": "stack yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_red_nu6p8iohxm.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_yellow_on_red_795kvk2bnt": {
+        "full_command": "stack yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_red_795kvk2bnt.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_yellow_on_red_853zgfnd1h": {
+        "full_command": "stack yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_red_853zgfnd1h.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_yellow_on_red_hnf88388u3": {
+        "full_command": "stack yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_red_hnf88388u3.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "stack_yellow_on_blue_cjsox4c898": {
+        "full_command": "stack yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_blue_cjsox4c898.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_yellow_on_blue_aik4ahtmmh": {
+        "full_command": "stack yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_blue_aik4ahtmmh.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_yellow_on_blue_e5q6qh8880": {
+        "full_command": "stack yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_blue_e5q6qh8880.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_yellow_on_blue_nh773c1h5z": {
+        "full_command": "stack yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_blue_nh773c1h5z.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_yellow_on_blue_6ewpo4g8ib": {
+        "full_command": "stack yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_blue_6ewpo4g8ib.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "stack_yellow_on_green_y4s74rxcwg": {
+        "full_command": "stack yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_green_y4s74rxcwg.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_yellow_on_green_jihcu5b41v": {
+        "full_command": "stack yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_green_jihcu5b41v.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_yellow_on_green_34t12somha": {
+        "full_command": "stack yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_green_34t12somha.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_yellow_on_green_mi9rooh6i1": {
+        "full_command": "stack yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_green_mi9rooh6i1.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "stack_yellow_on_green_gcyssy0g1z": {
+        "full_command": "stack yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/stack_yellow_on_green_gcyssy0g1z.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "stack",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_blue_864n65ymym": {
+        "full_command": "put red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_blue_864n65ymym.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_red_on_blue_eo1vuk1tst": {
+        "full_command": "put red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_blue_eo1vuk1tst.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_red_on_blue_7jfnj6gid9": {
+        "full_command": "put red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_blue_7jfnj6gid9.wav",
+        "duration": 3.84,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_red_on_blue_jfh9rifcvj": {
+        "full_command": "put red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_blue_jfh9rifcvj.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_red_on_blue_o5ow2732ra": {
+        "full_command": "put red on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_blue_o5ow2732ra.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_red_on_green_ylp3b37ri5": {
+        "full_command": "put red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_green_ylp3b37ri5.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_green_vw4tu12145": {
+        "full_command": "put red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_green_vw4tu12145.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_green_6fm4s488jp": {
+        "full_command": "put red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_green_6fm4s488jp.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_green_ir1rln07kc": {
+        "full_command": "put red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_green_ir1rln07kc.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_green_f9bcxwr8yx": {
+        "full_command": "put red on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_green_f9bcxwr8yx.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_red_on_yellow_cvhg14mc2c": {
+        "full_command": "put red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_yellow_cvhg14mc2c.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_red_on_yellow_vxvji5bwz2": {
+        "full_command": "put red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_yellow_vxvji5bwz2.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_red_on_yellow_smvc2cmu3t": {
+        "full_command": "put red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_yellow_smvc2cmu3t.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_red_on_yellow_nzzu3i52th": {
+        "full_command": "put red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_yellow_nzzu3i52th.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_red_on_yellow_oizhyokbiz": {
+        "full_command": "put red on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_on_yellow_oizhyokbiz.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_red_bellow_blue_m0t8wv326h": {
+        "full_command": "put red bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_blue_m0t8wv326h.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_red_bellow_blue_9ooay81107": {
+        "full_command": "put red bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_blue_9ooay81107.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_red_bellow_blue_1ymun7841o": {
+        "full_command": "put red bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_blue_1ymun7841o.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_red_bellow_blue_5k99h6btsw": {
+        "full_command": "put red bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_blue_5k99h6btsw.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_red_bellow_blue_72ctlekaaa": {
+        "full_command": "put red bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_blue_72ctlekaaa.wav",
+        "duration": 2.58,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_red_bellow_green_k9bteozq5p": {
+        "full_command": "put red bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_green_k9bteozq5p.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_red_bellow_green_0v3z4x567z": {
+        "full_command": "put red bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_green_0v3z4x567z.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_red_bellow_green_sbddqoz6o1": {
+        "full_command": "put red bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_green_sbddqoz6o1.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_red_bellow_green_csuc8suiw5": {
+        "full_command": "put red bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_green_csuc8suiw5.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_red_bellow_green_jhbuz3cmld": {
+        "full_command": "put red bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_green_jhbuz3cmld.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_red_bellow_yellow_epdph5katk": {
+        "full_command": "put red bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_yellow_epdph5katk.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_red_bellow_yellow_nb2ccoj6pd": {
+        "full_command": "put red bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_yellow_nb2ccoj6pd.wav",
+        "duration": 2.67,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_red_bellow_yellow_njw99wo14r": {
+        "full_command": "put red bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_yellow_njw99wo14r.wav",
+        "duration": 3.18,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_red_bellow_yellow_w5vhv7agih": {
+        "full_command": "put red bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_yellow_w5vhv7agih.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_red_bellow_yellow_wj40yxr5d7": {
+        "full_command": "put red bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_bellow_yellow_wj40yxr5d7.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_red_left_of_blue_tncmwz2d70": {
+        "full_command": "put red left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_blue_tncmwz2d70.wav",
+        "duration": 3.57,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_red_left_of_blue_xspl060qph": {
+        "full_command": "put red left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_blue_xspl060qph.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_red_left_of_blue_pggvjccrwx": {
+        "full_command": "put red left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_blue_pggvjccrwx.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_red_left_of_blue_jfvzy0owg7": {
+        "full_command": "put red left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_blue_jfvzy0owg7.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_red_left_of_blue_jwocju1mo5": {
+        "full_command": "put red left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_blue_jwocju1mo5.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_red_left_of_green_zpr0gv4n2u": {
+        "full_command": "put red left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_green_zpr0gv4n2u.wav",
+        "duration": 2.67,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_red_left_of_green_r0mpshd12r": {
+        "full_command": "put red left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_green_r0mpshd12r.wav",
+        "duration": 2.88,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_red_left_of_green_hsifs01ht5": {
+        "full_command": "put red left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_green_hsifs01ht5.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_red_left_of_green_8qz8unt6rm": {
+        "full_command": "put red left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_green_8qz8unt6rm.wav",
+        "duration": 2.58,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_red_left_of_green_ms3r34wfsn": {
+        "full_command": "put red left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_green_ms3r34wfsn.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_red_left_of_yellow_o6tqirgkb4": {
+        "full_command": "put red left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_yellow_o6tqirgkb4.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_red_left_of_yellow_ht2qcz4kwo": {
+        "full_command": "put red left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_yellow_ht2qcz4kwo.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_red_left_of_yellow_4ntp148l20": {
+        "full_command": "put red left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_yellow_4ntp148l20.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_red_left_of_yellow_5e3n820grj": {
+        "full_command": "put red left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_yellow_5e3n820grj.wav",
+        "duration": 3.03,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_red_left_of_yellow_ddst46zx89": {
+        "full_command": "put red left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_left_of_yellow_ddst46zx89.wav",
+        "duration": 3.21,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_red_right_of_blue_wpikjhomn5": {
+        "full_command": "put red right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_blue_wpikjhomn5.wav",
+        "duration": 2.73,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_red_right_of_blue_k04jlri1xz": {
+        "full_command": "put red right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_blue_k04jlri1xz.wav",
+        "duration": 2.94,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_red_right_of_blue_ttfrt5p3vl": {
+        "full_command": "put red right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_blue_ttfrt5p3vl.wav",
+        "duration": 2.85,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_red_right_of_blue_wgexj70j1y": {
+        "full_command": "put red right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_blue_wgexj70j1y.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_red_right_of_blue_u7469taorb": {
+        "full_command": "put red right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_blue_u7469taorb.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_red_right_of_green_k8tzdgmn0u": {
+        "full_command": "put red right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_green_k8tzdgmn0u.wav",
+        "duration": 2.79,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_red_right_of_green_pfaprenat5": {
+        "full_command": "put red right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_green_pfaprenat5.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_red_right_of_green_v0335ydc5m": {
+        "full_command": "put red right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_green_v0335ydc5m.wav",
+        "duration": 2.91,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_red_right_of_green_7ku7cy1hb7": {
+        "full_command": "put red right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_green_7ku7cy1hb7.wav",
+        "duration": 3.06,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_red_right_of_green_ov415a57b7": {
+        "full_command": "put red right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_green_ov415a57b7.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_red_right_of_yellow_8jwavukmzo": {
+        "full_command": "put red right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_yellow_8jwavukmzo.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_red_right_of_yellow_7b2p8hjzvb": {
+        "full_command": "put red right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_yellow_7b2p8hjzvb.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_red_right_of_yellow_y7iezvf1sr": {
+        "full_command": "put red right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_yellow_y7iezvf1sr.wav",
+        "duration": 3.39,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_red_right_of_yellow_ba6oe0e9yq": {
+        "full_command": "put red right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_yellow_ba6oe0e9yq.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_red_right_of_yellow_zfqx8a8qvx": {
+        "full_command": "put red right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_right_of_yellow_zfqx8a8qvx.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_red_in_front_of_blue_tg8rbxm7t6": {
+        "full_command": "put red in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_blue_tg8rbxm7t6.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_red_in_front_of_blue_6dxkmwyzbg": {
+        "full_command": "put red in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_blue_6dxkmwyzbg.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_red_in_front_of_blue_t6gj7x7i20": {
+        "full_command": "put red in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_blue_t6gj7x7i20.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_red_in_front_of_blue_ti5tws60cn": {
+        "full_command": "put red in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_blue_ti5tws60cn.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_red_in_front_of_blue_6ur6luyfbi": {
+        "full_command": "put red in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_blue_6ur6luyfbi.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_red_in_front_of_green_uxtsz0dkvk": {
+        "full_command": "put red in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_green_uxtsz0dkvk.wav",
+        "duration": 2.49,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_red_in_front_of_green_8sdthxmeww": {
+        "full_command": "put red in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_green_8sdthxmeww.wav",
+        "duration": 2.46,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_red_in_front_of_green_z2kly5ggks": {
+        "full_command": "put red in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_green_z2kly5ggks.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_red_in_front_of_green_g4zzz04b6p": {
+        "full_command": "put red in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_green_g4zzz04b6p.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_red_in_front_of_green_vrdpjzpe68": {
+        "full_command": "put red in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_green_vrdpjzpe68.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_red_in_front_of_yellow_8qj4wxggh2": {
+        "full_command": "put red in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_yellow_8qj4wxggh2.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_red_in_front_of_yellow_wfg5uwoxkj": {
+        "full_command": "put red in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_yellow_wfg5uwoxkj.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_red_in_front_of_yellow_h5qyydomxn": {
+        "full_command": "put red in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_yellow_h5qyydomxn.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_red_in_front_of_yellow_cpx1657i31": {
+        "full_command": "put red in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_yellow_cpx1657i31.wav",
+        "duration": 3.09,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_red_in_front_of_yellow_i1bgevkszp": {
+        "full_command": "put red in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_in_front_of_yellow_i1bgevkszp.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_red_behind_blue_26529kacbb": {
+        "full_command": "put red behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_blue_26529kacbb.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_red_behind_blue_c6er416sqy": {
+        "full_command": "put red behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_blue_c6er416sqy.wav",
+        "duration": 2.91,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_red_behind_blue_aw6zqhebfa": {
+        "full_command": "put red behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_blue_aw6zqhebfa.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_red_behind_blue_x7m21d3pke": {
+        "full_command": "put red behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_blue_x7m21d3pke.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_red_behind_blue_j9pe9qawkd": {
+        "full_command": "put red behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_blue_j9pe9qawkd.wav",
+        "duration": 3.24,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_red_behind_green_im5vl3gxe2": {
+        "full_command": "put red behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_green_im5vl3gxe2.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_red_behind_green_0tsqsij1m3": {
+        "full_command": "put red behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_green_0tsqsij1m3.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_red_behind_green_j134lju8wj": {
+        "full_command": "put red behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_green_j134lju8wj.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_red_behind_green_f5ja4ammzl": {
+        "full_command": "put red behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_green_f5ja4ammzl.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_red_behind_green_f81vf0kl70": {
+        "full_command": "put red behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_green_f81vf0kl70.wav",
+        "duration": 3.12,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_red_behind_yellow_4x89w3piz4": {
+        "full_command": "put red behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_yellow_4x89w3piz4.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_red_behind_yellow_gq6b7ujf7u": {
+        "full_command": "put red behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_yellow_gq6b7ujf7u.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_red_behind_yellow_x3zz8dvvoy": {
+        "full_command": "put red behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_yellow_x3zz8dvvoy.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_red_behind_yellow_vdyhktnmkd": {
+        "full_command": "put red behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_yellow_vdyhktnmkd.wav",
+        "duration": 3.63,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_red_behind_yellow_amc9gi8wbf": {
+        "full_command": "put red behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_red_behind_yellow_amc9gi8wbf.wav",
+        "duration": 4.44,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "red",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_blue_on_red_40mjak7pmj": {
+        "full_command": "put blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_red_40mjak7pmj.wav",
+        "duration": 4.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_blue_on_red_tuknh4sa5f": {
+        "full_command": "put blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_red_tuknh4sa5f.wav",
+        "duration": 4.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_blue_on_red_yuoyis1a16": {
+        "full_command": "put blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_red_yuoyis1a16.wav",
+        "duration": 2.64,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_blue_on_red_rdkbqdjf8l": {
+        "full_command": "put blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_red_rdkbqdjf8l.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_blue_on_red_pa5qnmzhz2": {
+        "full_command": "put blue on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_red_pa5qnmzhz2.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_blue_on_green_tkxn2ybcke": {
+        "full_command": "put blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_green_tkxn2ybcke.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_blue_on_green_5s9tsy01br": {
+        "full_command": "put blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_green_5s9tsy01br.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_blue_on_green_ug981vcwzh": {
+        "full_command": "put blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_green_ug981vcwzh.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_blue_on_green_mhr2m7k0j3": {
+        "full_command": "put blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_green_mhr2m7k0j3.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_blue_on_green_1jbkqoirx5": {
+        "full_command": "put blue on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_green_1jbkqoirx5.wav",
+        "duration": 3.03,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_blue_on_yellow_r2cqfeyfgz": {
+        "full_command": "put blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_yellow_r2cqfeyfgz.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_blue_on_yellow_gqjuch0l0l": {
+        "full_command": "put blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_yellow_gqjuch0l0l.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_blue_on_yellow_1xrh92gz9n": {
+        "full_command": "put blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_yellow_1xrh92gz9n.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_blue_on_yellow_snpvjwynf8": {
+        "full_command": "put blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_yellow_snpvjwynf8.wav",
+        "duration": 2.88,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_blue_on_yellow_jcpujjt2ty": {
+        "full_command": "put blue on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_on_yellow_jcpujjt2ty.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_blue_bellow_red_9a6st2yg4x": {
+        "full_command": "put blue bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_red_9a6st2yg4x.wav",
+        "duration": 4.53,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_blue_bellow_green_c5ee1gbmsp": {
+        "full_command": "put blue bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_green_c5ee1gbmsp.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_blue_bellow_yellow_hsj909sdhf": {
+        "full_command": "put blue bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_yellow_hsj909sdhf.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_blue_left_of_red_dx77ph6q2v": {
+        "full_command": "put blue left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_red_dx77ph6q2v.wav",
+        "duration": 3.39,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_blue_left_of_green_60ah6vxnqt": {
+        "full_command": "put blue left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_green_60ah6vxnqt.wav",
+        "duration": 3.45,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_blue_left_of_yellow_f8lwgbxa5s": {
+        "full_command": "put blue left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_yellow_f8lwgbxa5s.wav",
+        "duration": 3,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_blue_right_of_red_d9mm774yuo": {
+        "full_command": "put blue right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_red_d9mm774yuo.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_blue_right_of_green_3d75te7x7z": {
+        "full_command": "put blue right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_green_3d75te7x7z.wav",
+        "duration": 2.94,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_blue_right_of_yellow_5i2ej5pd4b": {
+        "full_command": "put blue right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_yellow_5i2ej5pd4b.wav",
+        "duration": 2.82,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_blue_in_front_of_red_148ugm6ye3": {
+        "full_command": "put blue in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_red_148ugm6ye3.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_blue_in_front_of_green_qskrnyten0": {
+        "full_command": "put blue in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_green_qskrnyten0.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_blue_in_front_of_yellow_vwly86cb63": {
+        "full_command": "put blue in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_yellow_vwly86cb63.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_blue_behind_red_tz39e53on5": {
+        "full_command": "put blue behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_red_tz39e53on5.wav",
+        "duration": 3.78,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_blue_behind_green_6jqup9a8sr": {
+        "full_command": "put blue behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_green_6jqup9a8sr.wav",
+        "duration": 2.52,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_behind_yellow_utalpp3nw2": {
+        "full_command": "put blue behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_yellow_utalpp3nw2.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_green_on_red_pb4rkgqsxn": {
+        "full_command": "put green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_red_pb4rkgqsxn.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_green_on_blue_5sfknz3zxw": {
+        "full_command": "put green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_blue_5sfknz3zxw.wav",
+        "duration": 4.26,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_green_on_yellow_b4clcg3t51": {
+        "full_command": "put green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_yellow_b4clcg3t51.wav",
+        "duration": 3.81,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_green_bellow_red_4ieweqij36": {
+        "full_command": "put green bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_red_4ieweqij36.wav",
+        "duration": 3.9,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_green_bellow_blue_ex1scxapcl": {
+        "full_command": "put green bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_blue_ex1scxapcl.wav",
+        "duration": 4.38,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_green_bellow_yellow_z4ib2qac68": {
+        "full_command": "put green bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_yellow_z4ib2qac68.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_green_left_of_red_buhlbmmq4x": {
+        "full_command": "put green left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_red_buhlbmmq4x.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_green_left_of_blue_kal25ebaum": {
+        "full_command": "put green left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_blue_kal25ebaum.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_green_left_of_yellow_30j6k036w1": {
+        "full_command": "put green left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_yellow_30j6k036w1.wav",
+        "duration": 2.31,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_green_right_of_red_tjvj0f7scf": {
+        "full_command": "put green right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_red_tjvj0f7scf.wav",
+        "duration": 2.94,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_green_right_of_blue_o6celyq6aj": {
+        "full_command": "put green right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_blue_o6celyq6aj.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_green_right_of_yellow_3ukmzmva5r": {
+        "full_command": "put green right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_yellow_3ukmzmva5r.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_green_in_front_of_red_g3zvuuydac": {
+        "full_command": "put green in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_red_g3zvuuydac.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_green_in_front_of_blue_gmzfd8nvio": {
+        "full_command": "put green in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_blue_gmzfd8nvio.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_green_in_front_of_yellow_ruou5c69s9": {
+        "full_command": "put green in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_yellow_ruou5c69s9.wav",
+        "duration": 2.79,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_green_behind_red_db4g3ywthz": {
+        "full_command": "put green behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_red_db4g3ywthz.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_green_behind_blue_2n9ey6f860": {
+        "full_command": "put green behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_blue_2n9ey6f860.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_green_behind_yellow_8ld342cb1z": {
+        "full_command": "put green behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_yellow_8ld342cb1z.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_yellow_on_red_gyyk0p8npk": {
+        "full_command": "put yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_red_gyyk0p8npk.wav",
+        "duration": 2.43,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_yellow_on_blue_8qtyf913j9": {
+        "full_command": "put yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_blue_8qtyf913j9.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_yellow_on_green_036bxszrae": {
+        "full_command": "put yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_green_036bxszrae.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_yellow_bellow_red_r07psem2gj": {
+        "full_command": "put yellow bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_red_r07psem2gj.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_yellow_bellow_blue_ppybhczhrh": {
+        "full_command": "put yellow bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_blue_ppybhczhrh.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_yellow_bellow_green_en6qyjkdc2": {
+        "full_command": "put yellow bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_green_en6qyjkdc2.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_yellow_left_of_red_uf2z23yfrt": {
+        "full_command": "put yellow left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_red_uf2z23yfrt.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_yellow_left_of_blue_7zflvgjs8z": {
+        "full_command": "put yellow left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_blue_7zflvgjs8z.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_yellow_left_of_green_pqcg570pon": {
+        "full_command": "put yellow left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_green_pqcg570pon.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_yellow_right_of_red_js4fq94q7b": {
+        "full_command": "put yellow right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_red_js4fq94q7b.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_yellow_right_of_blue_v3lhd8f2c7": {
+        "full_command": "put yellow right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_blue_v3lhd8f2c7.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_yellow_right_of_green_imleiwecby": {
+        "full_command": "put yellow right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_green_imleiwecby.wav",
+        "duration": 2.7,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_yellow_in_front_of_red_p0p5734jg8": {
+        "full_command": "put yellow in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_red_p0p5734jg8.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_yellow_in_front_of_blue_tig85983kv": {
+        "full_command": "put yellow in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_blue_tig85983kv.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_yellow_in_front_of_green_bmgx505hc6": {
+        "full_command": "put yellow in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_green_bmgx505hc6.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_yellow_behind_red_3dtz2mlqsw": {
+        "full_command": "put yellow behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_red_3dtz2mlqsw.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_yellow_behind_blue_df8t9whija": {
+        "full_command": "put yellow behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_blue_df8t9whija.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_yellow_behind_green_mbjdtb3wjd": {
+        "full_command": "put yellow behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_green_mbjdtb3wjd.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_bellow_red_3fe4h1mivj": {
+        "full_command": "put blue bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_red_3fe4h1mivj.wav",
+        "duration": 2.79,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_blue_bellow_red_f7ur50s2n4": {
+        "full_command": "put blue bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_red_f7ur50s2n4.wav",
+        "duration": 2.76,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_blue_bellow_green_wieam9oses": {
+        "full_command": "put blue bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_green_wieam9oses.wav",
+        "duration": 2.67,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_blue_bellow_green_pfw89xqfum": {
+        "full_command": "put blue bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_green_pfw89xqfum.wav",
+        "duration": 3.48,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_blue_bellow_yellow_pp5loldxaw": {
+        "full_command": "put blue bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_yellow_pp5loldxaw.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_blue_bellow_yellow_abbclr0my3": {
+        "full_command": "put blue bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_yellow_abbclr0my3.wav",
+        "duration": 2.91,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_blue_left_of_red_eb1gs0ab73": {
+        "full_command": "put blue left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_red_eb1gs0ab73.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_blue_left_of_red_7y8ek8hlom": {
+        "full_command": "put blue left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_red_7y8ek8hlom.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_blue_left_of_green_baaumz4cya": {
+        "full_command": "put blue left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_green_baaumz4cya.wav",
+        "duration": 3,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_blue_left_of_green_0g0snp5wq8": {
+        "full_command": "put blue left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_green_0g0snp5wq8.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_blue_left_of_yellow_dtanymhata": {
+        "full_command": "put blue left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_yellow_dtanymhata.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_blue_left_of_yellow_uf0j3vqiqn": {
+        "full_command": "put blue left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_yellow_uf0j3vqiqn.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_blue_right_of_red_c11tupxemc": {
+        "full_command": "put blue right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_red_c11tupxemc.wav",
+        "duration": 2.97,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_blue_right_of_red_0bi5om7bo3": {
+        "full_command": "put blue right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_red_0bi5om7bo3.wav",
+        "duration": 2.55,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_blue_right_of_green_3048rxic2h": {
+        "full_command": "put blue right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_green_3048rxic2h.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_blue_right_of_green_efq684wxaj": {
+        "full_command": "put blue right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_green_efq684wxaj.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_blue_right_of_yellow_l1geca8kig": {
+        "full_command": "put blue right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_yellow_l1geca8kig.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_blue_right_of_yellow_z7ngph4ik5": {
+        "full_command": "put blue right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_yellow_z7ngph4ik5.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_blue_in_front_of_red_1hzd0flqo5": {
+        "full_command": "put blue in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_red_1hzd0flqo5.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_blue_in_front_of_red_h5owwsvmy9": {
+        "full_command": "put blue in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_red_h5owwsvmy9.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_blue_in_front_of_green_fd458v82vx": {
+        "full_command": "put blue in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_green_fd458v82vx.wav",
+        "duration": 2.82,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_blue_in_front_of_green_bb82i1er3q": {
+        "full_command": "put blue in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_green_bb82i1er3q.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_blue_in_front_of_yellow_41ma7uinq9": {
+        "full_command": "put blue in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_yellow_41ma7uinq9.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_blue_in_front_of_yellow_fj7itzrvnc": {
+        "full_command": "put blue in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_yellow_fj7itzrvnc.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_blue_behind_red_scg3myhf2u": {
+        "full_command": "put blue behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_red_scg3myhf2u.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_blue_behind_red_rssn9mm5zk": {
+        "full_command": "put blue behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_red_rssn9mm5zk.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_blue_behind_green_qr7rcflagq": {
+        "full_command": "put blue behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_green_qr7rcflagq.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_behind_green_iz8urwjnci": {
+        "full_command": "put blue behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_green_iz8urwjnci.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_behind_yellow_29mo1hz7la": {
+        "full_command": "put blue behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_yellow_29mo1hz7la.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_blue_behind_yellow_6mxboplg2v": {
+        "full_command": "put blue behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_yellow_6mxboplg2v.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_green_on_red_1ukvzgh6te": {
+        "full_command": "put green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_red_1ukvzgh6te.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_green_on_red_qyl18se86u": {
+        "full_command": "put green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_red_qyl18se86u.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_green_on_blue_jogwru9wjq": {
+        "full_command": "put green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_blue_jogwru9wjq.wav",
+        "duration": 1.35,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_green_on_blue_iyocy8qry6": {
+        "full_command": "put green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_blue_iyocy8qry6.wav",
+        "duration": 1.41,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_green_on_yellow_o3vsissy3j": {
+        "full_command": "put green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_yellow_o3vsissy3j.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_green_on_yellow_m6yqd90w9e": {
+        "full_command": "put green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_yellow_m6yqd90w9e.wav",
+        "duration": 1.35,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_green_bellow_red_u8xl1nmeo7": {
+        "full_command": "put green bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_red_u8xl1nmeo7.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_green_bellow_red_7ba6yla9h8": {
+        "full_command": "put green bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_red_7ba6yla9h8.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_green_bellow_blue_if6cpjqns2": {
+        "full_command": "put green bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_blue_if6cpjqns2.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_green_bellow_blue_0hugrjw0an": {
+        "full_command": "put green bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_blue_0hugrjw0an.wav",
+        "duration": 1.56,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_green_bellow_yellow_87t2xqqzcp": {
+        "full_command": "put green bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_yellow_87t2xqqzcp.wav",
+        "duration": 3.03,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_green_bellow_yellow_lgvj0q9ala": {
+        "full_command": "put green bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_yellow_lgvj0q9ala.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_green_left_of_red_rzt49ku6rl": {
+        "full_command": "put green left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_red_rzt49ku6rl.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_green_left_of_red_1dcm0jgjio": {
+        "full_command": "put green left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_red_1dcm0jgjio.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_green_left_of_blue_ysswc8bhkj": {
+        "full_command": "put green left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_blue_ysswc8bhkj.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_green_left_of_blue_8yjm3ntl1t": {
+        "full_command": "put green left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_blue_8yjm3ntl1t.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_green_left_of_yellow_o56qvcjp55": {
+        "full_command": "put green left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_yellow_o56qvcjp55.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_green_left_of_yellow_qctsxv5ch8": {
+        "full_command": "put green left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_yellow_qctsxv5ch8.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_green_right_of_red_e0lu09jtod": {
+        "full_command": "put green right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_red_e0lu09jtod.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_green_right_of_red_oumacsntdx": {
+        "full_command": "put green right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_red_oumacsntdx.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_green_right_of_blue_6rh5fqsdjy": {
+        "full_command": "put green right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_blue_6rh5fqsdjy.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_green_right_of_blue_vccfwuwus1": {
+        "full_command": "put green right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_blue_vccfwuwus1.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_green_right_of_yellow_d9ejbna5ni": {
+        "full_command": "put green right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_yellow_d9ejbna5ni.wav",
+        "duration": 2.58,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_green_right_of_yellow_vxqtajlb3z": {
+        "full_command": "put green right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_yellow_vxqtajlb3z.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_green_in_front_of_red_k2cg52jhui": {
+        "full_command": "put green in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_red_k2cg52jhui.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_green_in_front_of_red_8y46xgfgko": {
+        "full_command": "put green in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_red_8y46xgfgko.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_green_in_front_of_blue_jsszf9oxsm": {
+        "full_command": "put green in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_blue_jsszf9oxsm.wav",
+        "duration": 3.66,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_green_in_front_of_blue_cxb97h7r92": {
+        "full_command": "put green in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_blue_cxb97h7r92.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_green_in_front_of_yellow_ndsw2vcbhn": {
+        "full_command": "put green in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_yellow_ndsw2vcbhn.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_green_in_front_of_yellow_cu8ozyqf1t": {
+        "full_command": "put green in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_yellow_cu8ozyqf1t.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_green_behind_red_iqzm3yz2rb": {
+        "full_command": "put green behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_red_iqzm3yz2rb.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_green_behind_red_2yy2q5j8u2": {
+        "full_command": "put green behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_red_2yy2q5j8u2.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_green_behind_blue_hnrcumdkff": {
+        "full_command": "put green behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_blue_hnrcumdkff.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_green_behind_blue_zhso790uja": {
+        "full_command": "put green behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_blue_zhso790uja.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_green_behind_yellow_cp3vn0rsjf": {
+        "full_command": "put green behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_yellow_cp3vn0rsjf.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_green_behind_yellow_ynj9y3wsqy": {
+        "full_command": "put green behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_yellow_ynj9y3wsqy.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_yellow_on_red_w6t0rny078": {
+        "full_command": "put yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_red_w6t0rny078.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_yellow_on_red_2j4tqqk5ub": {
+        "full_command": "put yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_red_2j4tqqk5ub.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_yellow_on_blue_iyveafmcd7": {
+        "full_command": "put yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_blue_iyveafmcd7.wav",
+        "duration": 1.29,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_yellow_on_blue_nrqq22z28y": {
+        "full_command": "put yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_blue_nrqq22z28y.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_yellow_on_green_fm7hi0d1xk": {
+        "full_command": "put yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_green_fm7hi0d1xk.wav",
+        "duration": 1.53,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_yellow_on_green_0tzyvvq1ag": {
+        "full_command": "put yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_green_0tzyvvq1ag.wav",
+        "duration": 1.56,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_yellow_bellow_red_xyl7mjb0iu": {
+        "full_command": "put yellow bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_red_xyl7mjb0iu.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_yellow_bellow_red_06l0b5cebu": {
+        "full_command": "put yellow bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_red_06l0b5cebu.wav",
+        "duration": 1.62,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_yellow_bellow_blue_mayj96t0rq": {
+        "full_command": "put yellow bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_blue_mayj96t0rq.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_yellow_bellow_blue_scl28iswcz": {
+        "full_command": "put yellow bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_blue_scl28iswcz.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_yellow_bellow_green_rhfc1ja7nl": {
+        "full_command": "put yellow bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_green_rhfc1ja7nl.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_yellow_bellow_green_ont1j3ua8p": {
+        "full_command": "put yellow bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_green_ont1j3ua8p.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_yellow_left_of_red_x6emkessb3": {
+        "full_command": "put yellow left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_red_x6emkessb3.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_yellow_left_of_red_v1r7um1q9t": {
+        "full_command": "put yellow left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_red_v1r7um1q9t.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_yellow_left_of_blue_6rc90cyc32": {
+        "full_command": "put yellow left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_blue_6rc90cyc32.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_yellow_left_of_blue_8ynrxfyl9n": {
+        "full_command": "put yellow left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_blue_8ynrxfyl9n.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_yellow_left_of_green_wmzt07dx6f": {
+        "full_command": "put yellow left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_green_wmzt07dx6f.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_yellow_left_of_green_h84r1jhaiu": {
+        "full_command": "put yellow left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_green_h84r1jhaiu.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_yellow_right_of_red_3cjl6mlyen": {
+        "full_command": "put yellow right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_red_3cjl6mlyen.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_yellow_right_of_red_rkg3j3us17": {
+        "full_command": "put yellow right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_red_rkg3j3us17.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_yellow_right_of_blue_c0r1zzsbgl": {
+        "full_command": "put yellow right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_blue_c0r1zzsbgl.wav",
+        "duration": 2.64,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_yellow_right_of_blue_851y7af2p3": {
+        "full_command": "put yellow right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_blue_851y7af2p3.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_yellow_right_of_green_6py1mte09q": {
+        "full_command": "put yellow right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_green_6py1mte09q.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_yellow_right_of_green_1nzwfgz6nk": {
+        "full_command": "put yellow right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_green_1nzwfgz6nk.wav",
+        "duration": 2.91,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_yellow_in_front_of_red_uaw75itu0z": {
+        "full_command": "put yellow in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_red_uaw75itu0z.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_yellow_in_front_of_red_1mha0d3kx0": {
+        "full_command": "put yellow in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_red_1mha0d3kx0.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_yellow_in_front_of_blue_2dwiygg31u": {
+        "full_command": "put yellow in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_blue_2dwiygg31u.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_yellow_in_front_of_blue_0gk1q1u8ic": {
+        "full_command": "put yellow in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_blue_0gk1q1u8ic.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_yellow_in_front_of_green_6w7dhunzsr": {
+        "full_command": "put yellow in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_green_6w7dhunzsr.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_yellow_in_front_of_green_tg0wvuma8j": {
+        "full_command": "put yellow in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_green_tg0wvuma8j.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_yellow_behind_red_nfya9qh3d7": {
+        "full_command": "put yellow behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_red_nfya9qh3d7.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_yellow_behind_red_lvj4knl2e6": {
+        "full_command": "put yellow behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_red_lvj4knl2e6.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_yellow_behind_blue_ucmjmgnd86": {
+        "full_command": "put yellow behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_blue_ucmjmgnd86.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_yellow_behind_blue_hachaij0vu": {
+        "full_command": "put yellow behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_blue_hachaij0vu.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_yellow_behind_green_myeqbkvrm6": {
+        "full_command": "put yellow behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_green_myeqbkvrm6.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_yellow_behind_green_jv4gzcgn2o": {
+        "full_command": "put yellow behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_green_jv4gzcgn2o.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_bellow_red_4rcxbutr6l": {
+        "full_command": "put blue bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_red_4rcxbutr6l.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_blue_bellow_red_agz60yovls": {
+        "full_command": "put blue bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_red_agz60yovls.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_blue_bellow_green_tqtld1zskf": {
+        "full_command": "put blue bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_green_tqtld1zskf.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_blue_bellow_green_153vwy9s4w": {
+        "full_command": "put blue bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_green_153vwy9s4w.wav",
+        "duration": 1.62,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_blue_bellow_yellow_rsgy16ze1e": {
+        "full_command": "put blue bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_yellow_rsgy16ze1e.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_blue_bellow_yellow_h36ruw0p0v": {
+        "full_command": "put blue bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_bellow_yellow_h36ruw0p0v.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_blue_left_of_red_i9yrd2w3u0": {
+        "full_command": "put blue left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_red_i9yrd2w3u0.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_blue_left_of_red_my7dr581sn": {
+        "full_command": "put blue left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_red_my7dr581sn.wav",
+        "duration": 1.59,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_blue_left_of_green_yxdej5maj4": {
+        "full_command": "put blue left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_green_yxdej5maj4.wav",
+        "duration": 2.28,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_blue_left_of_green_aox8qtdy24": {
+        "full_command": "put blue left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_green_aox8qtdy24.wav",
+        "duration": 1.59,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_blue_left_of_yellow_m7n87z4e3w": {
+        "full_command": "put blue left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_yellow_m7n87z4e3w.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_blue_left_of_yellow_jtbj2qf2g2": {
+        "full_command": "put blue left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_left_of_yellow_jtbj2qf2g2.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_blue_right_of_red_8f7thoq0r7": {
+        "full_command": "put blue right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_red_8f7thoq0r7.wav",
+        "duration": 2.61,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_blue_right_of_red_vgtxggd1tf": {
+        "full_command": "put blue right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_red_vgtxggd1tf.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_blue_right_of_green_baf7du8tjt": {
+        "full_command": "put blue right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_green_baf7du8tjt.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_blue_right_of_green_hkdqss5k7n": {
+        "full_command": "put blue right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_green_hkdqss5k7n.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_blue_right_of_yellow_y7kgv8pqsf": {
+        "full_command": "put blue right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_yellow_y7kgv8pqsf.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_blue_right_of_yellow_9vl0o66jo9": {
+        "full_command": "put blue right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_right_of_yellow_9vl0o66jo9.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_blue_in_front_of_red_56lfwqj2ak": {
+        "full_command": "put blue in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_red_56lfwqj2ak.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_blue_in_front_of_red_t060bilc0m": {
+        "full_command": "put blue in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_red_t060bilc0m.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_blue_in_front_of_green_jmn5wm8732": {
+        "full_command": "put blue in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_green_jmn5wm8732.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_blue_in_front_of_green_vk8f8syqhz": {
+        "full_command": "put blue in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_green_vk8f8syqhz.wav",
+        "duration": 2.4,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_blue_in_front_of_yellow_mtvcowqfl3": {
+        "full_command": "put blue in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_yellow_mtvcowqfl3.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_blue_in_front_of_yellow_3xk8aov3lj": {
+        "full_command": "put blue in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_in_front_of_yellow_3xk8aov3lj.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_blue_behind_red_iw73nixudh": {
+        "full_command": "put blue behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_red_iw73nixudh.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_blue_behind_red_hreau937vz": {
+        "full_command": "put blue behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_red_hreau937vz.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_blue_behind_green_268zosl6kb": {
+        "full_command": "put blue behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_green_268zosl6kb.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_behind_green_ykhspurypv": {
+        "full_command": "put blue behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_green_ykhspurypv.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_blue_behind_yellow_5ohue49n33": {
+        "full_command": "put blue behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_yellow_5ohue49n33.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_blue_behind_yellow_gmdyjcau0r": {
+        "full_command": "put blue behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_blue_behind_yellow_gmdyjcau0r.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "blue",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_green_on_red_dhxyferkev": {
+        "full_command": "put green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_red_dhxyferkev.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_green_on_red_dmd360djdu": {
+        "full_command": "put green on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_red_dmd360djdu.wav",
+        "duration": 1.5,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_green_on_blue_2zbh2h3nru": {
+        "full_command": "put green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_blue_2zbh2h3nru.wav",
+        "duration": 1.44,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_green_on_blue_fmxhr2mrku": {
+        "full_command": "put green on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_blue_fmxhr2mrku.wav",
+        "duration": 1.41,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_green_on_yellow_hys4p6mai8": {
+        "full_command": "put green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_yellow_hys4p6mai8.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_green_on_yellow_vmok7bkh97": {
+        "full_command": "put green on yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_on_yellow_vmok7bkh97.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "on",
+        "obj2": "yellow"
+    },
+    "put_green_bellow_red_h6t8sckqzz": {
+        "full_command": "put green bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_red_h6t8sckqzz.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_green_bellow_red_dflxr2y846": {
+        "full_command": "put green bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_red_dflxr2y846.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_green_bellow_blue_ind28you77": {
+        "full_command": "put green bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_blue_ind28you77.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_green_bellow_blue_geowkzdmk4": {
+        "full_command": "put green bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_blue_geowkzdmk4.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_green_bellow_yellow_pxj60yuhcc": {
+        "full_command": "put green bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_yellow_pxj60yuhcc.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_green_bellow_yellow_e8pl6kt9qr": {
+        "full_command": "put green bellow yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_bellow_yellow_e8pl6kt9qr.wav",
+        "duration": 1.62,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "bellow",
+        "obj2": "yellow"
+    },
+    "put_green_left_of_red_perdig4399": {
+        "full_command": "put green left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_red_perdig4399.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_green_left_of_red_m63vjblxp1": {
+        "full_command": "put green left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_red_m63vjblxp1.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_green_left_of_blue_7pvn3u1ioj": {
+        "full_command": "put green left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_blue_7pvn3u1ioj.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_green_left_of_blue_ugcm7e7blk": {
+        "full_command": "put green left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_blue_ugcm7e7blk.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_green_left_of_yellow_otx2z7pezy": {
+        "full_command": "put green left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_yellow_otx2z7pezy.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_green_left_of_yellow_1eiuoz6qm3": {
+        "full_command": "put green left_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_left_of_yellow_1eiuoz6qm3.wav",
+        "duration": 2.16,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "left_of",
+        "obj2": "yellow"
+    },
+    "put_green_right_of_red_fba2ezy2oq": {
+        "full_command": "put green right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_red_fba2ezy2oq.wav",
+        "duration": 2.22,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_green_right_of_red_6q1qvdfmjv": {
+        "full_command": "put green right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_red_6q1qvdfmjv.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_green_right_of_blue_nhuv785sfw": {
+        "full_command": "put green right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_blue_nhuv785sfw.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_green_right_of_blue_k0j1x0rf4h": {
+        "full_command": "put green right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_blue_k0j1x0rf4h.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_green_right_of_yellow_a57m77nonc": {
+        "full_command": "put green right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_yellow_a57m77nonc.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_green_right_of_yellow_h6iep5s80q": {
+        "full_command": "put green right_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_right_of_yellow_h6iep5s80q.wav",
+        "duration": 2.19,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "right_of",
+        "obj2": "yellow"
+    },
+    "put_green_in_front_of_red_zn2fhxtmrx": {
+        "full_command": "put green in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_red_zn2fhxtmrx.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_green_in_front_of_red_bgmwkw9kcg": {
+        "full_command": "put green in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_red_bgmwkw9kcg.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_green_in_front_of_blue_tovbw3zian": {
+        "full_command": "put green in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_blue_tovbw3zian.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_green_in_front_of_blue_h2pfmldmcl": {
+        "full_command": "put green in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_blue_h2pfmldmcl.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_green_in_front_of_yellow_izj94rmwwl": {
+        "full_command": "put green in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_yellow_izj94rmwwl.wav",
+        "duration": 2.67,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_green_in_front_of_yellow_uwanifu602": {
+        "full_command": "put green in_front_of yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_in_front_of_yellow_uwanifu602.wav",
+        "duration": 2.01,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "in_front_of",
+        "obj2": "yellow"
+    },
+    "put_green_behind_red_0voympwiie": {
+        "full_command": "put green behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_red_0voympwiie.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_green_behind_red_6lf7py9r4u": {
+        "full_command": "put green behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_red_6lf7py9r4u.wav",
+        "duration": 2.73,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_green_behind_blue_rlsse7q4rl": {
+        "full_command": "put green behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_blue_rlsse7q4rl.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_green_behind_blue_46l4n1zy9z": {
+        "full_command": "put green behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_blue_46l4n1zy9z.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_green_behind_yellow_ycd2p9l6tf": {
+        "full_command": "put green behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_yellow_ycd2p9l6tf.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_green_behind_yellow_nsml9h8x0q": {
+        "full_command": "put green behind yellow",
+        "wav": "./dataset/wavs/aurelien_marchal/put_green_behind_yellow_nsml9h8x0q.wav",
+        "duration": 1.74,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "green",
+        "prep": "behind",
+        "obj2": "yellow"
+    },
+    "put_yellow_on_red_9njs6ahsdo": {
+        "full_command": "put yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_red_9njs6ahsdo.wav",
+        "duration": 1.5,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_yellow_on_red_bd5i5xs2wt": {
+        "full_command": "put yellow on red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_red_bd5i5xs2wt.wav",
+        "duration": 1.38,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "red"
+    },
+    "put_yellow_on_blue_b2hmcagtf2": {
+        "full_command": "put yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_blue_b2hmcagtf2.wav",
+        "duration": 1.89,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_yellow_on_blue_bq56qvbhru": {
+        "full_command": "put yellow on blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_blue_bq56qvbhru.wav",
+        "duration": 1.41,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "blue"
+    },
+    "put_yellow_on_green_hsgyl2p4y4": {
+        "full_command": "put yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_green_hsgyl2p4y4.wav",
+        "duration": 1.53,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_yellow_on_green_bl29xdps46": {
+        "full_command": "put yellow on green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_on_green_bl29xdps46.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "on",
+        "obj2": "green"
+    },
+    "put_yellow_bellow_red_kbkh3vvpbr": {
+        "full_command": "put yellow bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_red_kbkh3vvpbr.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_yellow_bellow_red_vxehhkq3ha": {
+        "full_command": "put yellow bellow red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_red_vxehhkq3ha.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "red"
+    },
+    "put_yellow_bellow_blue_i3kheur2xf": {
+        "full_command": "put yellow bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_blue_i3kheur2xf.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_yellow_bellow_blue_8f794rvc8c": {
+        "full_command": "put yellow bellow blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_blue_8f794rvc8c.wav",
+        "duration": 1.5,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "blue"
+    },
+    "put_yellow_bellow_green_7lt8pktbmg": {
+        "full_command": "put yellow bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_green_7lt8pktbmg.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_yellow_bellow_green_w13b4aqd9u": {
+        "full_command": "put yellow bellow green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_bellow_green_w13b4aqd9u.wav",
+        "duration": 2.13,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "bellow",
+        "obj2": "green"
+    },
+    "put_yellow_left_of_red_bw1hr13vju": {
+        "full_command": "put yellow left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_red_bw1hr13vju.wav",
+        "duration": 2.58,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_yellow_left_of_red_vvmod2wqko": {
+        "full_command": "put yellow left_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_red_vvmod2wqko.wav",
+        "duration": 2.07,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "red"
+    },
+    "put_yellow_left_of_blue_183mc39sod": {
+        "full_command": "put yellow left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_blue_183mc39sod.wav",
+        "duration": 1.92,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_yellow_left_of_blue_o3115nluqb": {
+        "full_command": "put yellow left_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_blue_o3115nluqb.wav",
+        "duration": 2.04,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "blue"
+    },
+    "put_yellow_left_of_green_gpgzpw2e74": {
+        "full_command": "put yellow left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_green_gpgzpw2e74.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_yellow_left_of_green_08ojwo4l4b": {
+        "full_command": "put yellow left_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_left_of_green_08ojwo4l4b.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "left_of",
+        "obj2": "green"
+    },
+    "put_yellow_right_of_red_8u04dkv254": {
+        "full_command": "put yellow right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_red_8u04dkv254.wav",
+        "duration": 2.34,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_yellow_right_of_red_9qnylttoqo": {
+        "full_command": "put yellow right_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_red_9qnylttoqo.wav",
+        "duration": 1.95,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "red"
+    },
+    "put_yellow_right_of_blue_1ad3ztws38": {
+        "full_command": "put yellow right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_blue_1ad3ztws38.wav",
+        "duration": 1.98,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_yellow_right_of_blue_enowo6zofd": {
+        "full_command": "put yellow right_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_blue_enowo6zofd.wav",
+        "duration": 1.71,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "blue"
+    },
+    "put_yellow_right_of_green_oeztr0ezvs": {
+        "full_command": "put yellow right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_green_oeztr0ezvs.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_yellow_right_of_green_d2urffsupx": {
+        "full_command": "put yellow right_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_right_of_green_d2urffsupx.wav",
+        "duration": 2.37,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "right_of",
+        "obj2": "green"
+    },
+    "put_yellow_in_front_of_red_73j2n7twdt": {
+        "full_command": "put yellow in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_red_73j2n7twdt.wav",
+        "duration": 1.86,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_yellow_in_front_of_red_xubobhsod2": {
+        "full_command": "put yellow in_front_of red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_red_xubobhsod2.wav",
+        "duration": 1.8,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "red"
+    },
+    "put_yellow_in_front_of_blue_zz51pagu5e": {
+        "full_command": "put yellow in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_blue_zz51pagu5e.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_yellow_in_front_of_blue_7tzki5s6b9": {
+        "full_command": "put yellow in_front_of blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_blue_7tzki5s6b9.wav",
+        "duration": 1.77,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "blue"
+    },
+    "put_yellow_in_front_of_green_y0k534rtkm": {
+        "full_command": "put yellow in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_green_y0k534rtkm.wav",
+        "duration": 2.1,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_yellow_in_front_of_green_ep4r4hacce": {
+        "full_command": "put yellow in_front_of green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_in_front_of_green_ep4r4hacce.wav",
+        "duration": 1.65,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "in_front_of",
+        "obj2": "green"
+    },
+    "put_yellow_behind_red_37uputpnul": {
+        "full_command": "put yellow behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_red_37uputpnul.wav",
+        "duration": 2.25,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_yellow_behind_red_g4ljmnc80k": {
+        "full_command": "put yellow behind red",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_red_g4ljmnc80k.wav",
+        "duration": 1.62,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "red"
+    },
+    "put_yellow_behind_blue_787d96gq9n": {
+        "full_command": "put yellow behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_blue_787d96gq9n.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_yellow_behind_blue_oej9bp1036": {
+        "full_command": "put yellow behind blue",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_blue_oej9bp1036.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "blue"
+    },
+    "put_yellow_behind_green_kllailcyuf": {
+        "full_command": "put yellow behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_green_kllailcyuf.wav",
+        "duration": 1.83,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "green"
+    },
+    "put_yellow_behind_green_qqiyjqq3hp": {
+        "full_command": "put yellow behind green",
+        "wav": "./dataset/wavs/aurelien_marchal/put_yellow_behind_green_qqiyjqq3hp.wav",
+        "duration": 1.68,
+        "speaker": "aurelien_marchal",
+        "cmd": "put",
+        "obj1": "yellow",
+        "prep": "behind",
+        "obj2": "green"
+    }
+}

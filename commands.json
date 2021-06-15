@@ -1,0 +1,42 @@
+{
+    "pick_up": {
+        "syntaxs":[
+            {
+                "obj1": true,
+                "prep": [],
+                "obj2": false
+            }
+        ],
+        "name": "pick_up"
+    },
+    "move":{
+        "syntaxs":[
+            {
+                "obj1": true,
+                "prep": ["far_from", "near"],
+                "obj2": true
+            }
+        ],
+        "name": "move"
+    },
+    "stack":{
+        "syntaxs":[
+            {
+                "obj1": true,
+                "prep": ["on"],
+                "obj2": true
+            }
+        ],
+        "name":"stack"
+    },
+    "put":{
+        "syntaxs":[
+            {
+                "obj1": true,
+                "prep": ["on", "bellow", "left_of", "right_of", "in_front_of", "behind"],
+                "obj2": true
+            }
+        ],
+        "name":"put"
+    }
+}
