@@ -22,4 +22,4 @@ This should start the training process and create the result folder.
 
 # Training with Colab
 
-If you want to run the training process with Colab copy the notebook in the Notebook folder in your Google Drive and open it with Google Colab. Make sure that the notebook is using GPU and run the cells.
+If you want to run the training process with Colab copy the Speech-to-Command-Notebook.ipynb in the notebook folder in your Google Drive (don't copy all the repo in your drive) and open it with Google Colab. Make sure that the notebook is using GPU and run the cells.
