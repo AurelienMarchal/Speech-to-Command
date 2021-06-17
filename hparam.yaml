@@ -1,7 +1,7 @@
 # ################################
-# Model: seq2seq ASR on TIMIT with wav2vec2 + CTC/Attention
+# Model: wav2vec with DNN
 # Authors:
-# * Titouan Parcollet 2021
+# * Aurélien Marchal 2021
 # ################################
 
 # Seed needs to be set at top of yaml, before objects with parameters are made
@@ -29,7 +29,7 @@ nb_command : 108 # Nb of full_command
 
 # kfold
 
-k_fold: 1
+k_fold: 5
 
 # Training parameters
 number_of_epochs: 20
@@ -46,7 +46,7 @@ activation: !name:torch.nn.LeakyReLU
 dnn_neurons: 1024
 
 
-freeze_wav2vec: True
+freeze_wav2vec: False
 
 # Outputs
 output_neurons: !ref <nb_command>
@@ -153,3 +153,4 @@ train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
 error_stats: !name:speechbrain.utils.metric_stats.MetricStats
     metric: !name:speechbrain.nnet.losses.classification_error
         reduction: batch
+
