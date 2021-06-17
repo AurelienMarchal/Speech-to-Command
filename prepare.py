@@ -1,6 +1,7 @@
 import json
 import logging
 
+
 logger = logging.getLogger(__name__)
 SAMPLERATE = 16000
 
@@ -10,12 +11,16 @@ annotation_file = "annotation.json"
 nb_iteration_valid = 1
 nb_iteration_test = 1
 
+
+
 def prepare(data_folder, 
     save_json_train,
     save_json_valid,
     save_json_test, 
     kfold = 1, 
     skip_prep=False):
+
+    logger.info("Starting dataset preparation.")
 
 
     with open(data_folder + annotation_file, 'r') as a:
@@ -36,24 +41,39 @@ def prepare(data_folder,
     valid_annotation_dict = {}
     test_annotation_dict = {}
 
-    for full_command in iteration_dict:
-        nb_iteration_total = len(iteration_dict[full_command])
+    for k in range(kfold):
+        
+        logger.info("Going through k_fold : " + str(k))
 
-        if nb_iteration_valid + nb_iteration_test >= nb_iteration_total:
-            logger.info("Not enough iterations for '" + full_command + "'. Skipping it")
+        ind = k
 
-        else:
-            for _ in range(nb_iteration_valid):
-                entry = iteration_dict[full_command].pop()
-                valid_annotation_dict[entry] = annotation_dict[entry]
+        for full_command in iteration_dict:
+            nb_iteration_total = len(iteration_dict[full_command])
 
-            for _ in range(nb_iteration_test):
-                entry = iteration_dict[full_command].pop()
-                test_annotation_dict[entry] = annotation_dict[entry]
-            
-            while len(iteration_dict[full_command]) > 0:
-                entry = iteration_dict[full_command].pop()
-                train_annotation_dict[entry] = annotation_dict[entry]
+            if nb_iteration_valid + nb_iteration_test >= nb_iteration_total:
+                logger.info("Not enough iterations for '" + full_command + "'. Skipping it")
+
+            else:
+                ind = ind % nb_iteration_total
+                for _ in range(nb_iteration_valid):
+
+                    entry = iteration_dict[full_command][ind]
+                    valid_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
+                    ind += 1
+                    ind = ind % nb_iteration_total
+
+                for _ in range(nb_iteration_test):
+                    entry = iteration_dict[full_command][ind]
+                    test_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
+                    ind += 1
+                    ind = ind % nb_iteration_total
+                
+                for _ in range(nb_iteration_total - (nb_iteration_valid + nb_iteration_test)):
+                    entry = iteration_dict[full_command][ind]
+                    train_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
+                    ind += 1
+                    ind = ind % nb_iteration_total
+                    
     
 
     
