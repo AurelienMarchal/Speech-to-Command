@@ -78,6 +78,11 @@ class Speech2CommandBrain(sb.Brain):
 
         if stage != sb.Stage.TRAIN:
             self.error_metrics.append(uttid, predictions, command)
+           
+        if stage != sb.Stage.TRAIN:
+            
+            print("\nCommands :", label_encoder.decode_torch(command))
+            print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions, dim=1)))
 
         return loss
 
