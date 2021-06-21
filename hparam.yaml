@@ -1,5 +1,5 @@
 # ################################
-# Model: wav2vec with DNN
+# Model: wav2vec with emb and DNN
 # Authors:
 # * Aurélien Marchal 2021
 # ################################
@@ -7,7 +7,7 @@
 # Seed needs to be set at top of yaml, before objects with parameters are made
 seed: 1234
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
-output_folder: !ref results/wav2vec_DNN/<seed>
+output_folder: !ref results/wav2vec_CNN/<seed>
 wer_file: !ref <output_folder>/wer.txt
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
@@ -29,7 +29,7 @@ nb_command : 108 # Nb of full_command
 
 # kfold
 
-k_fold: 5
+k_fold: 1
 
 # Training parameters
 number_of_epochs: 20
@@ -44,7 +44,7 @@ sample_rate: 16000
 # Model parameters
 activation: !name:torch.nn.LeakyReLU
 dnn_neurons: 1024
-
+dnn_layers: 2
 
 freeze_wav2vec: False
 
@@ -72,6 +72,7 @@ epoch_counter: !new:speechbrain.utils.epoch_loop.EpochCounter
     limit: !ref <number_of_epochs>
 
 
+
 wav2vec2: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
     source: !ref <wav2vec2_hub>
     output_norm: True
@@ -91,14 +92,27 @@ wav2vec2: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
 #    save_path: !ref <save_folder>/wav2vec2_checkpoint/model.pt
 #####
 
+conv2d: !new:speechbrain.nnet.CNN.Conv2d
+    input_shape: [null , 64, 1024]
+    out_channels: 3
+    kernel_size: [7, 3]
+
+max_pool: !new:speechbrain.nnet.pooling.Pooling2d
+    pool_type : max
+    kernel_size: [7, 3]
 
 dnn: !new:speechbrain.nnet.linear.Linear
     n_neurons: !ref <output_neurons>
-    input_shape: [null, !ref <dnn_neurons>]
+    input_shape: [null, 9207]
 
+flatten: !new:torch.nn.Flatten
 
 softmax: !new:speechbrain.nnet.activations.Softmax
     apply_log: True
+
+model: !new:torch.nn.ModuleList
+    - [!ref <conv2d>, !ref <max_pool>, !ref <flatten>, !ref <dnn>]
+
 
 adam_opt_class: !name:torch.optim.Adam
     lr: !ref <lr>
@@ -127,8 +141,11 @@ mean_var_norm: !new:speechbrain.processing.features.InputNormalization
     std_norm: False
 
 modules:
-    dnn: !ref <dnn>
     wav2vec2: !ref <wav2vec2>
+    conv2d: !ref <conv2d>
+    max_pool: !ref <max_pool>
+    flatten: !ref <flatten>
+    dnn: !ref <dnn>
     softmax: !ref <softmax>
     mean_var_norm: !ref <mean_var_norm>
 
@@ -140,7 +157,9 @@ checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
     checkpoints_dir: !ref <save_folder>
     recoverables:
         dnn : !ref <dnn>
-        normalizer: !ref <mean_var_norm>
+        conv2d: !ref <conv2d>
+        max_pool: !ref <max_pool>
+        flatten: !ref <flatten>
         wav2vec2: !ref <wav2vec2>
         lr_annealing_adam: !ref <lr_annealing_adam>
         lr_annealing_wav2vec: !ref <lr_annealing_wav2vec>

@@ -26,13 +26,23 @@ class Speech2CommandBrain(sb.Brain):
         feats = self.modules.wav2vec2(wavs)
         #print("Wav2vec :", feats.shape)
 
-        feats = self.modules.mean_var_norm(feats, wav_lens)
-        #print("Mean :",feats.shape)
-        
-        feats = torch.sum(feats, dim=1)
-        #print("Sum :", feats.shape)
+        padded_feats = torch.zeros(feats.shape[0], 64, feats.shape[2])
+        padded_feats[:, :min(feats.shape[1], 64), :] = feats[:, :min(feats.shape[1], 64), :]
+        #print("padded Feats :", padded_feats.shape)
 
-        outputs = self.modules.dnn(feats)
+        conv = self.modules.conv2d(padded_feats)
+        #print("Conv :", conv.shape)
+
+        pool = self.modules.max_pool(conv)
+        #print("Pool :", pool.shape)
+
+        flatten = self.modules.flatten(pool)
+        #print("Faltten Feats :", flatten.shape)
+
+        #mean  = self.modules.mean_var_norm(padded_feats , wav_lens)
+        #print("Mean :", mean.shape)
+
+        outputs = self.modules.dnn(flatten)
         #print("Output :", outputs.shape)
 
         # Ecapa model uses softmax outside of its classifer
@@ -113,7 +123,7 @@ class Speech2CommandBrain(sb.Brain):
             self.modules.wav2vec2.parameters()
         )
         self.optimizer = self.hparams.adam_opt_class(
-            self.hparams.dnn.parameters()
+            self.hparams.model.parameters()
         )
 
         if self.checkpointer is not None:
