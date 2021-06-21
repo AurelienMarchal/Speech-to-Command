@@ -29,6 +29,7 @@ class Speech2CommandBrain(sb.Brain):
         padded_feats = torch.zeros(feats.shape[0], 64, feats.shape[2])
         padded_feats[:, :min(feats.shape[1], 64), :] = feats[:, :min(feats.shape[1], 64), :]
         #print("padded Feats :", padded_feats.shape)
+        padded_feats = padded_feats.to(self.device)
 
         conv = self.modules.conv2d(padded_feats)
         #print("Conv :", conv.shape)
