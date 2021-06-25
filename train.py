@@ -73,7 +73,7 @@ class Speech2CommandBrain(sb.Brain):
         if stage != sb.Stage.TRAIN:
             
             print("\nCommands :", label_encoder.decode_torch(commands))
-            #print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions, dim=1)))
+            print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2)))
             
             #Ajouter le calcule du WER
 
