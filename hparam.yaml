@@ -7,7 +7,7 @@
 # Seed needs to be set at top of yaml, before objects with parameters are made
 seed: 1234
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
-output_folder: !ref results/wav2vec_CNN/<seed>
+output_folder: !ref results/wav2vec_enc_dec/<seed>
 wer_file: !ref <output_folder>/wer.txt
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
@@ -23,7 +23,9 @@ test_annotation: !ref <output_folder>/test.json
 skip_prep: False # Skip data preparation
 apply_data_augmentation: False
 
-nb_command : 108 # Nb of full_command
+nb_command: 3
+nb_prep: 8
+nb_obj: 4
 
 #ckpt_interval_minutes: 15 # save checkpoint every N min
 
@@ -36,20 +38,24 @@ number_of_epochs: 20
 batch_size: 8
 lr: 0.0003
 lr_wav2vec: 0.0001
-ctc_weight: 0.2
+
 sorting: ascending
 auto_mix_prec: False
 sample_rate: 16000
 
 # Model parameters
 activation: !name:torch.nn.LeakyReLU
-dnn_neurons: 1024
-dnn_layers: 2
 
+wav2vec_size: 1024
+encoder_dim: 256
+emb_size: 128
+dec_neurons: 512
 freeze_wav2vec: False
 
 # Outputs
-output_neurons: !ref <nb_command>
+output_neurons: 17 # nb_command + nb_prep + nb_obj + bos + eos
+bos_index: 0
+eos_index: 1
 
 # Dataloader options
 train_dataloader_opts:
@@ -92,26 +98,41 @@ wav2vec2: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
 #    save_path: !ref <save_folder>/wav2vec2_checkpoint/model.pt
 #####
 
-conv2d: !new:speechbrain.nnet.CNN.Conv2d
-    input_shape: [null , 64, 1024]
-    out_channels: 3
-    kernel_size: [7, 3]
+enc: !new:speechbrain.nnet.containers.Sequential
+    input_shape: [null, null, !ref <wav2vec_size>]
 
-max_pool: !new:speechbrain.nnet.pooling.Pooling2d
-    pool_type : max
-    kernel_size: [7, 3]
+    lstm: !new:speechbrain.nnet.RNN.LSTM
+        input_size: !ref <wav2vec_size>
+        bidirectional: True
+        hidden_size: !ref <encoder_dim>
+        num_layers: 2
+    
+    linear: !new:speechbrain.nnet.linear.Linear
+        input_size: !ref <encoder_dim> * 2
+        n_neurons: !ref <encoder_dim>
 
-dnn: !new:speechbrain.nnet.linear.Linear
-    n_neurons: !ref <output_neurons>
-    input_shape: [null, 9207]
 
-flatten: !new:torch.nn.Flatten
+emb: !new:speechbrain.nnet.embedding.Embedding
+    num_embeddings: !ref <output_neurons>
+    embedding_dim: !ref <emb_size>
+
+dec: !new:speechbrain.nnet.RNN.AttentionalRNNDecoder
+    enc_dim: !ref <encoder_dim>
+    input_size: !ref <emb_size>
+    rnn_type: gru
+    attn_type: keyvalue
+    hidden_size: !ref <dec_neurons>
+    attn_dim: 512
+    num_layers: 3
+    scaling: 1.0
+    dropout: 0.0
+
 
 softmax: !new:speechbrain.nnet.activations.Softmax
     apply_log: True
 
 model: !new:torch.nn.ModuleList
-    - [!ref <conv2d>, !ref <max_pool>, !ref <flatten>, !ref <dnn>]
+    - [!ref <enc>, !ref <emb>, !ref <dec>]
 
 
 adam_opt_class: !name:torch.optim.Adam
@@ -142,24 +163,25 @@ mean_var_norm: !new:speechbrain.processing.features.InputNormalization
 
 modules:
     wav2vec2: !ref <wav2vec2>
-    conv2d: !ref <conv2d>
-    max_pool: !ref <max_pool>
-    flatten: !ref <flatten>
-    dnn: !ref <dnn>
+    enc: !ref <enc>
+    emb: !ref <emb>
+    dec: !ref <dec>
     softmax: !ref <softmax>
     mean_var_norm: !ref <mean_var_norm>
 
 # Cost + optimization
-compute_cost: !name:speechbrain.nnet.losses.nll_loss
+seq_cost: !name:speechbrain.nnet.losses.nll_loss
+    label_smoothing: 0.1
+
+
 compute_error: !name:speechbrain.nnet.losses.classification_error
+
+error_rate_computer: !name:speechbrain.utils.metric_stats.ErrorRateStats
 
 checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
     checkpoints_dir: !ref <save_folder>
     recoverables:
-        dnn : !ref <dnn>
-        conv2d: !ref <conv2d>
-        max_pool: !ref <max_pool>
-        flatten: !ref <flatten>
+        model: !ref <model>
         wav2vec2: !ref <wav2vec2>
         lr_annealing_adam: !ref <lr_annealing_adam>
         lr_annealing_wav2vec: !ref <lr_annealing_wav2vec>
@@ -169,7 +191,8 @@ train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
     save_file: !ref <train_log>
 
 
-error_stats: !name:speechbrain.utils.metric_stats.MetricStats
-    metric: !name:speechbrain.nnet.losses.classification_error
+seq_stats: !name:speechbrain.utils.metric_stats.MetricStats
+    metric: !name:speechbrain.nnet.losses.nll_loss
+        label_smoothing: 0.1
         reduction: batch
 

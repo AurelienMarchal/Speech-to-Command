@@ -16,73 +16,71 @@ class Speech2CommandBrain(sb.Brain):
     def compute_forward(self, batch, stage):
         batch = batch.to(self.device)
         wavs, wav_lens = batch.sig
+        command_bos, _ = batch.command_encoded_bos
 
         if stage == sb.Stage.TRAIN:
             if hasattr(self.hparams, "augmentation"):
                 wavs = self.hparams.augmentation(wavs, wav_lens)
+
+            #Add data augmentation with rir noise cf fluent-speech-commands recipe
 
         #print("wav :", wavs.shape)
 
         feats = self.modules.wav2vec2(wavs)
         #print("Wav2vec :", feats.shape)
 
-        padded_feats = torch.zeros(feats.shape[0], 64, feats.shape[2])
-        padded_feats[:, :min(feats.shape[1], 64), :] = feats[:, :min(feats.shape[1], 64), :]
-        #print("padded Feats :", padded_feats.shape)
-        padded_feats = padded_feats.to(self.device)
+        encoder_out = self.hparams.enc(feats)
 
-        conv = self.modules.conv2d(padded_feats)
-        #print("Conv :", conv.shape)
+        embedded_dec_in = self.hparams.emb(command_bos)
 
-        pool = self.modules.max_pool(conv)
-        #print("Pool :", pool.shape)
+        outputs, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
 
-        flatten = self.modules.flatten(pool)
-        #print("Faltten Feats :", flatten.shape)
-
-        #mean  = self.modules.mean_var_norm(padded_feats , wav_lens)
-        #print("Mean :", mean.shape)
-
-        outputs = self.modules.dnn(flatten)
-        #print("Output :", outputs.shape)
+        print("Decoder :", outputs.shape)
 
         # Ecapa model uses softmax outside of its classifer
-        if "softmax" in self.modules.keys():
-            outputs = self.modules.softmax(outputs)
+        #if "softmax" in self.modules.keys():
+        #    outputs = self.modules.softmax(outputs)
 
         return outputs, wav_lens
 
     def compute_objectives(self, predictions, batch, stage):
         """Computes the loss using command-id as label.
         """
-        predictions, lens = predictions
+        predictions_seq, lens = predictions
         uttid = batch.id
-        command, _ = batch.command_encoded
-
-        command = torch.reshape(command, (-1,))
+        
+        command_eos, command_eos_lens = batch.command_encoded_eos
+        commands, command_lens = batch.command_encoded
+        
 
 
         # Concatenate labels (due to data augmentation)
         if stage == sb.Stage.TRAIN and self.hparams.apply_data_augmentation:
-            command = torch.cat([command] * self.n_augment, dim=0)
-
+            commands = torch.cat([commands] * self.n_augment, dim=0)
+            command_lens = torch.cat([command_lens] * self.n_augment, dim=0)
+            
+            command_eos = torch.cat([command_eos] * self.n_augment, dim=0)
+            command_eos_lens = torch.cat([command_eos_lens] * self.n_augment, dim=0)
 
         # compute the cost function
-        loss = self.hparams.compute_cost(predictions, command)
+        loss_seq = self.hparams.seq_cost(predictions_seq, command_eos, length=command_eos_lens)
         # loss = sb.nnet.losses.nll_loss(predictions, command, lens)
 
-        #print("loss ",  loss)
+        loss= loss_seq
 
         if hasattr(self.hparams.lr_annealing_adam, "on_batch_end"):
             self.hparams.lr_annealing_adam.on_batch_end(self.optimizer)
 
         if stage != sb.Stage.TRAIN:
-            self.error_metrics.append(uttid, predictions, command)
-           
+            self.error_metrics.append(uttid, predictions_seq, command_eos, length=command_eos_lens)
+
         if stage != sb.Stage.TRAIN:
             
-            print("\nCommands :", label_encoder.decode_torch(command))
-            print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions, dim=1)))
+            print("\nCommands :", label_encoder.decode_torch(commands))
+            #print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions, dim=1)))
+            
+            #Ajouter le calcule du WER
+
 
         return loss
 
@@ -181,7 +179,8 @@ def dataio_prep(hparams):
     test_data = test_data.filtered_sorted(sort_key="duration")
 
     datasets = [train_data, valid_data, test_data]
-    label_encoder = sb.dataio.encoder.CategoricalEncoder()
+    label_encoder = sb.dataio.encoder.TextEncoder()
+    #label_encoder.add_unk()
 
     # 2. Define audio pipeline:
     @sb.utils.data_pipeline.takes("wav")
@@ -195,24 +194,47 @@ def dataio_prep(hparams):
 
     # 3. Define text pipeline:
     @sb.utils.data_pipeline.takes("full_command", "cmd", "obj1", "prep", "obj2")
-    @sb.utils.data_pipeline.provides("full_command", "command_encoded")
-    def label_pipeline(full_command, cmd, obj1, prep, obj2):
+    @sb.utils.data_pipeline.provides(
+        "full_command", 
+        "command_encoded_list", 
+        "command_encoded",
+        "command_encoded_eos",
+        "command_encoded_bos"
+        )
+    def text_pipeline(full_command, cmd, obj1, prep, obj2):
         yield full_command
-        command_encoded = label_encoder.encode_sequence_torch([full_command])
+        full_command_list = full_command.split(' ')
+        command_encoded_list = label_encoder.encode_sequence(full_command_list)
+        yield command_encoded_list
+        command_encoded = torch.LongTensor(command_encoded_list)
         yield command_encoded
+        command_encoded_eos = torch.LongTensor(label_encoder.append_eos_index(command_encoded_list))
+        yield command_encoded_eos
+        command_encoded_bos = torch.LongTensor(label_encoder.prepend_bos_index(command_encoded_list))
+        yield command_encoded_bos
 
-    sb.dataio.dataset.add_dynamic_item(datasets, label_pipeline)
+
+    sb.dataio.dataset.add_dynamic_item(datasets, text_pipeline)
 
     # 3. Fit encoder:
     # Load or compute the label encoder (with multi-GPU DDP support)
     lab_enc_file = os.path.join(hparams["save_folder"], "label_encoder.txt")
+    special_labels = {
+        "bos_label":hparams["bos_index"],
+        "eos_label":hparams["eos_index"]
+    }
+
     label_encoder.load_or_create(
-        path=lab_enc_file, from_didatasets=[train_data], output_key="full_command",
+        path=lab_enc_file, 
+        from_didatasets=[train_data], 
+        output_key="full_command_list",
+        special_labels=special_labels,
+        sequence_input=True
     )
 
     # 4. Set output:
     sb.dataio.dataset.set_output_keys(
-        datasets, ["id", "sig", "command_encoded"]
+        datasets, ["id", "sig", "command_encoded", "command_encoded_eos", "command_encoded_bos"]
     )
 
     return train_data, valid_data, test_data, label_encoder
@@ -266,6 +288,7 @@ if __name__ == "__main__":
         opt_class=hparams["opt_class"],
         checkpointer=hparams["checkpointer"],
     )
+
 
     # Training
     speaker_brain.fit(

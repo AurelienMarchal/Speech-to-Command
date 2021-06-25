@@ -58,18 +58,21 @@ def prepare(data_folder,
                 for _ in range(nb_iteration_valid):
 
                     entry = iteration_dict[full_command][ind]
+                    annotation_dict[entry]["full_command_list"] = annotation_dict[entry]["full_command"].split()
                     valid_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
                     ind += 1
                     ind = ind % nb_iteration_total
 
                 for _ in range(nb_iteration_test):
                     entry = iteration_dict[full_command][ind]
+                    annotation_dict[entry]["full_command_list"] = annotation_dict[entry]["full_command"].split()
                     test_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
                     ind += 1
                     ind = ind % nb_iteration_total
                 
                 for _ in range(nb_iteration_total - (nb_iteration_valid + nb_iteration_test)):
                     entry = iteration_dict[full_command][ind]
+                    annotation_dict[entry]["full_command_list"] = annotation_dict[entry]["full_command"].split()
                     train_annotation_dict[entry + '_' + str(k)] = annotation_dict[entry]
                     ind += 1
                     ind = ind % nb_iteration_total
