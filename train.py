@@ -34,12 +34,8 @@ class Speech2CommandBrain(sb.Brain):
         embedded_dec_in = self.hparams.emb(command_bos)
 
         outputs, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
-
-        print("Decoder :", outputs.shape)
-
-        # Ecapa model uses softmax outside of its classifer
-        #if "softmax" in self.modules.keys():
-        #    outputs = self.modules.softmax(outputs)
+        
+        outputs = self.modules.softmax(outputs)
 
         return outputs, wav_lens
 
@@ -64,8 +60,6 @@ class Speech2CommandBrain(sb.Brain):
 
         # compute the cost function
         loss_seq = self.hparams.seq_cost(predictions_seq, command_eos, length=command_eos_lens)
-        # loss = sb.nnet.losses.nll_loss(predictions, command, lens)
-
         loss= loss_seq
 
         if hasattr(self.hparams.lr_annealing_adam, "on_batch_end"):
@@ -88,7 +82,7 @@ class Speech2CommandBrain(sb.Brain):
     def on_stage_start(self, stage, epoch):
         """Gets called at the beginning of an epoch."""
         if stage != sb.Stage.TRAIN:
-            self.error_metrics = self.hparams.error_stats()
+            self.error_metrics = self.hparams.seq_stats()
 
     def on_stage_end(self, stage, stage_loss, epoch):
         """Gets called at the end of an epoch."""
