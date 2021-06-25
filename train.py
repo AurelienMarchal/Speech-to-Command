@@ -92,10 +92,13 @@ class Speech2CommandBrain(sb.Brain):
 
         if stage != sb.Stage.TRAIN:
             
-            print("\nCommands :", label_encoder.decode_torch(commands))
-            print("Predictions :", label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2)))
+            target_words = label_encoder.decode_torch(commands)
+            predicted_words = label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2))
             
-            #Ajouter le calcule du WER
+
+            if stage== sb.Stage.TEST:
+                print("\nTargets :", target_words)
+                print("Predictions :", predicted_words)
 
 
         return loss
@@ -105,6 +108,7 @@ class Speech2CommandBrain(sb.Brain):
         """Gets called at the beginning of an epoch."""
         if stage != sb.Stage.TRAIN:
             self.error_metrics = self.hparams.seq_stats()
+
 
     def on_stage_end(self, stage, stage_loss, epoch):
         """Gets called at the end of an epoch."""
