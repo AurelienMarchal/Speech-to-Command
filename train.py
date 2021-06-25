@@ -33,9 +33,11 @@ class Speech2CommandBrain(sb.Brain):
 
         embedded_dec_in = self.hparams.emb(command_bos)
 
-        outputs, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
+        decoder_out, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
         
-        outputs = self.modules.softmax(outputs)
+        logits = self.hparams.seq_lin(decoder_out)
+
+        outputs = self.modules.softmax(logits)
 
         return outputs, wav_lens
 

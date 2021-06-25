@@ -131,8 +131,12 @@ dec: !new:speechbrain.nnet.RNN.AttentionalRNNDecoder
 softmax: !new:speechbrain.nnet.activations.Softmax
     apply_log: True
 
+seq_lin: !new:speechbrain.nnet.linear.Linear
+    input_size: !ref <dec_neurons>
+    n_neurons: !ref <output_neurons>
+
 model: !new:torch.nn.ModuleList
-    - [!ref <enc>, !ref <emb>, !ref <dec>]
+    - [!ref <enc>, !ref <emb>, !ref <dec>, !ref <seq_lin>]
 
 
 adam_opt_class: !name:torch.optim.Adam
@@ -167,6 +171,7 @@ modules:
     emb: !ref <emb>
     dec: !ref <dec>
     softmax: !ref <softmax>
+    seq_lin: !ref <seq_lin>
     mean_var_norm: !ref <mean_var_norm>
 
 # Cost + optimization
