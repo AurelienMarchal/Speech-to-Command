@@ -18,16 +18,32 @@ class Speech2CommandBrain(sb.Brain):
         wavs, wav_lens = batch.sig
         command_bos, _ = batch.command_encoded_bos
 
-        if stage == sb.Stage.TRAIN:
-            if hasattr(self.hparams, "augmentation"):
-                wavs = self.hparams.augmentation(wavs, wav_lens)
+        if stage == sb.Stage.TRAIN and self.hparams.apply_data_augmentation:
+            # Applying the augmentation pipeline
+            wavs_aug_tot = []
+            wavs_aug_tot.append(wavs)
+            for count, augment in enumerate(self.hparams.augment_pipeline):
 
-            #Add data augmentation with rir noise cf fluent-speech-commands recipe
+                # Apply augment
+                wavs_aug = augment(wavs, wav_lens)
 
-        #print("wav :", wavs.shape)
+                # Managing speed change
+                if wavs_aug.shape[1] > wavs.shape[1]:
+                    wavs_aug = wavs_aug[:, 0 : wavs.shape[1]]
+                else:
+                    zero_sig = torch.zeros_like(wavs)
+                    zero_sig[:, 0 : wavs_aug.shape[1]] = wavs_aug
+                    wavs_aug = zero_sig
 
+                wavs_aug_tot.append(wavs_aug)
+
+            wavs = torch.cat(wavs_aug_tot, dim=0)
+            self.n_augment = len(wavs_aug_tot)
+            wav_lens = torch.cat([wav_lens] * self.n_augment)
+            command_bos = torch.cat([command_bos] * self.n_augment)
+
+        
         feats = self.modules.wav2vec2(wavs)
-        #print("Wav2vec :", feats.shape)
 
         encoder_out = self.hparams.enc(feats)
 
@@ -38,6 +54,10 @@ class Speech2CommandBrain(sb.Brain):
         logits = self.hparams.seq_lin(decoder_out)
 
         outputs = self.modules.softmax(logits)
+
+
+        # Compute outputs
+        #TO DO add beam searcher for VALID and TEST
 
         return outputs, wav_lens
 
@@ -50,7 +70,7 @@ class Speech2CommandBrain(sb.Brain):
         command_eos, command_eos_lens = batch.command_encoded_eos
         commands, command_lens = batch.command_encoded
         
-
+        
 
         # Concatenate labels (due to data augmentation)
         if stage == sb.Stage.TRAIN and self.hparams.apply_data_augmentation:

@@ -17,21 +17,21 @@ wav2vec2_hub: "facebook/wav2vec2-large-lv60"
 
 # Data files
 data_folder: ./dataset/ # e.g. /path/to/data_set
+rir_folder: !ref <data_folder> # Change it if needed
 train_annotation: !ref <output_folder>/train.json
 valid_annotation: !ref <output_folder>/dev.json
 test_annotation: !ref <output_folder>/test.json
 skip_prep: False # Skip data preparation
-apply_data_augmentation: False
+apply_data_augmentation: True
 
 nb_command: 3
 nb_prep: 8
 nb_obj: 4
 
-#ckpt_interval_minutes: 15 # save checkpoint every N min
 
 # kfold
 
-k_fold: 1
+k_fold: 1 # between 1 and 5
 
 # Training parameters
 number_of_epochs: 20
@@ -70,9 +70,50 @@ test_dataloader_opts:
     batch_size: !ref <batch_size>
     num_workers: !ref <batch_size>
 
-augmentation: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
+augment_wavedrop: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
+    sample_rate: !ref <sample_rate>
+    speeds: [100]
+
+augment_speed: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
     sample_rate: !ref <sample_rate>
     speeds: [95, 100, 105]
+
+add_rev: !new:speechbrain.lobes.augment.EnvCorrupt
+    openrir_folder: !ref <rir_folder>
+    openrir_max_noise_len: 3.0  # seconds
+    reverb_prob: 1.0
+    noise_prob: 0.0
+    noise_snr_low: 0
+    noise_snr_high: 15
+    rir_scale_factor: 1.0
+
+add_noise: !new:speechbrain.lobes.augment.EnvCorrupt
+    openrir_folder: !ref <rir_folder>
+    openrir_max_noise_len: 3.0  # seconds
+    reverb_prob: 0.0
+    noise_prob: 1.0
+    noise_snr_low: 0
+    noise_snr_high: 15
+    rir_scale_factor: 1.0
+
+add_rev_noise: !new:speechbrain.lobes.augment.EnvCorrupt
+    openrir_folder: !ref <rir_folder>
+    openrir_max_noise_len: 3.0  # seconds
+    reverb_prob: 1.0
+    noise_prob: 1.0
+    noise_snr_low: 0
+    noise_snr_high: 15
+    rir_scale_factor: 1.0
+
+
+augment_pipeline: [
+    !ref <augment_wavedrop>,
+    !ref <augment_speed>,
+    !ref <add_rev>,
+    !ref <add_noise>,
+    !ref <add_rev_noise>
+]
+
 
 epoch_counter: !new:speechbrain.utils.epoch_loop.EpochCounter
     limit: !ref <number_of_epochs>
@@ -161,18 +202,19 @@ lr_annealing_wav2vec: !new:speechbrain.nnet.schedulers.NewBobScheduler
     improvement_threshold: 0.0025
     annealing_factor: 0.9
 
-mean_var_norm: !new:speechbrain.processing.features.InputNormalization
-    norm_type: sentence
-    std_norm: False
 
 modules:
+    augment_wavedrop: !ref <augment_wavedrop>
+    augment_speed: !ref <augment_speed>
+    add_rev: !ref <add_rev>
+    add_noise: !ref <add_noise>
+    add_rev_noise: !ref <add_rev_noise>
     wav2vec2: !ref <wav2vec2>
     enc: !ref <enc>
     emb: !ref <emb>
     dec: !ref <dec>
     softmax: !ref <softmax>
     seq_lin: !ref <seq_lin>
-    mean_var_norm: !ref <mean_var_norm>
 
 # Cost + optimization
 seq_cost: !name:speechbrain.nnet.losses.nll_loss
