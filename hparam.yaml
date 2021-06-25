@@ -22,7 +22,7 @@ train_annotation: !ref <output_folder>/train.json
 valid_annotation: !ref <output_folder>/dev.json
 test_annotation: !ref <output_folder>/test.json
 skip_prep: False # Skip data preparation
-apply_data_augmentation: True
+apply_data_augmentation: False # This makes cuda run out of memory for now
 
 nb_command: 3
 nb_prep: 8
