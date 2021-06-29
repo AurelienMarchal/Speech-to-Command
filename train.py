@@ -95,6 +95,16 @@ class Speech2CommandBrain(sb.Brain):
             target_words = label_encoder.decode_torch(commands)
             predicted_words = label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2))
             
+            cnt = 0
+            correct_pred = 0
+            for target_sen, pred_sen in zip(target_words, predicted_words):
+              pred_sen.remove('<eos>')
+              for target, pred in zip(target_sen, pred_sen):
+                if target == pred:
+                  correct_pred += 1
+                cnt += 1
+  
+            self.list_accuracy.append(correct_pred/cnt)
 
             if stage== sb.Stage.TEST:
                 print("\nTargets :", target_words)
@@ -108,6 +118,7 @@ class Speech2CommandBrain(sb.Brain):
         """Gets called at the beginning of an epoch."""
         if stage != sb.Stage.TRAIN:
             self.error_metrics = self.hparams.seq_stats()
+            self.list_accuracy = []
 
 
     def on_stage_end(self, stage, stage_loss, epoch):
@@ -118,6 +129,9 @@ class Speech2CommandBrain(sb.Brain):
             self.train_stats = stage_stats
         else:
             stage_stats["ErrorRate"] = self.error_metrics.summarize("average")
+            
+            acc_av = sum(self.list_accuracy)/len(self.list_accuracy)
+            print("\n Accuracy :", (acc_av)*100, "%" )
 
         # Perform end-of-iteration things, like annealing, logging, etc.
         if stage == sb.Stage.VALID:
