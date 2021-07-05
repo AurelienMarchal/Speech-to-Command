@@ -1,0 +1,7 @@
+- Add Greed Searcher and Beam Searcher for Valid and Test
+
+- Implement a script to use the trained model with a wav file different from dataset (inference)
+
+- Improve the error rate calculation
+
+- Add new command ? and new data to the dataset
