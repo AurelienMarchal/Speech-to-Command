@@ -43,8 +43,8 @@ class Speech2CommandBrain(sb.Brain):
             command_bos = torch.cat([command_bos] * self.n_augment)
 
         
-        feats = self.modules.compute_features(wavs)
-        feats = self.modules.normalize(feats)
+        feats = self.hparams.compute_features(wavs)
+        feats = self.modules.normalize(feats, wav_lens)
 
         encoder_out = self.hparams.enc(feats)
 

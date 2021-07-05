@@ -35,7 +35,6 @@ k_fold: 5 # between 1 and 5
 number_of_epochs: 20
 batch_size: 8
 lr: 0.0003
-lr_wav2vec: 0.0001
 
 sorting: ascending
 auto_mix_prec: False
@@ -125,7 +124,7 @@ normalize: !new:speechbrain.processing.features.InputNormalization
 
 
 compute_features: !new:speechbrain.lobes.features.Fbank
-    sample_rate: !ref <number_of_epochs>
+    sample_rate: !ref <sample_rate>
     n_fft: !ref <n_fft>
     n_mels: !ref <n_mels>
 
