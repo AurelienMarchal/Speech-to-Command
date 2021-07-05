@@ -18,6 +18,8 @@ Run pip install speechbrain if you haven't already.
 
 Run "python train.py hparam.yaml" (add --device=cpu at the end if you don't have a good GPU).
 
+or Run "python train_with_wav2vect.py hparam_wav2vect.yaml"
+
 This should start the training process and create the result folder.
 
 # Training with Colab
