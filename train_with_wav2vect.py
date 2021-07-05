@@ -106,6 +106,8 @@ class Speech2CommandBrain(sb.Brain):
 
             self.list_accuracy.append(correct_pred/cnt)
 
+            
+
             if stage== sb.Stage.TEST:
                 print("\nTargets :", target_words)
                 print("Predictions :", predicted_words)
@@ -131,7 +133,8 @@ class Speech2CommandBrain(sb.Brain):
             stage_stats["ErrorRate"] = self.error_metrics.summarize("average")
             
             acc_av = sum(self.list_accuracy)/len(self.list_accuracy)
-            print("\n Accuracy :", (acc_av)*100, "%" )
+
+            logger.info(f"Accuray : {(acc_av)*100} %")
 
         # Perform end-of-iteration things, like annealing, logging, etc.
         if stage == sb.Stage.VALID:
