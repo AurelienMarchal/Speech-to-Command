@@ -1,0 +1,8 @@
+.vscode/*
+__pycache__/*
+dataset/RIRS_NOISES/README
+dataset/RIRS_NOISES/*
+dataset/noise.csv
+dataset/reverb.csv
+dataset/rirs_noises.zip
+results/*

@@ -12,6 +12,8 @@ wer_file: !ref <output_folder>/wer.txt
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
 
+# URL for the biggest Fairseq english wav2vec2 model.
+wav2vec2_hub: "facebook/wav2vec2-large-lv60"
 
 # Data files
 data_folder: ./dataset/ # e.g. /path/to/data_set
@@ -39,19 +41,16 @@ lr_wav2vec: 0.0001
 
 sorting: ascending
 auto_mix_prec: False
-
+sample_rate: 16000
 
 # Model parameters
 activation: !name:torch.nn.LeakyReLU
+
+wav2vec_size: 1024
 encoder_dim: 256
 emb_size: 128
 dec_neurons: 512
-
-# Features parametres
-sample_rate: 16000
-n_fft: 400
-n_mels: 40
-
+freeze_wav2vec: False
 
 # Outputs
 output_neurons: 17 # nb_command + nb_prep + nb_obj + bos + eos
@@ -120,20 +119,31 @@ epoch_counter: !new:speechbrain.utils.epoch_loop.EpochCounter
     limit: !ref <number_of_epochs>
 
 
-normalize: !new:speechbrain.processing.features.InputNormalization
-    norm_type: global
 
+wav2vec2: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
+    source: !ref <wav2vec2_hub>
+    output_norm: True
+    freeze: !ref <freeze_wav2vec>
+    save_path: !ref <save_folder>/wav2vec2_checkpoint
 
-compute_features: !new:speechbrain.lobes.features.Fbank
-    sample_rate: !ref <number_of_epochs>
-    n_fft: !ref <n_fft>
-    n_mels: !ref <n_mels>
+#####
+# Uncomment this block if you prefer to use a Fairseq pretrained model instead
+# of a HuggingFace one. Here, we provide an URL that is obtained from the
+# Fairseq github for an equivalent model compared to HuggingFace.
+#
+#wav2vec2_url: https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_vox_new.pt
+#wav2vec2: !new:speechbrain.lobes.models.fairseq_wav2vec.FairseqWav2Vec2
+#    pretrained_path: !ref <wav2vec2_url>
+#    output_norm: True
+#    freeze: False
+#    save_path: !ref <save_folder>/wav2vec2_checkpoint/model.pt
+#####
 
 enc: !new:speechbrain.nnet.containers.Sequential
-    input_shape: [null, null, !ref <n_mels>]
+    input_shape: [null, null, !ref <wav2vec_size>]
 
     lstm: !new:speechbrain.nnet.RNN.LSTM
-        input_size: !ref <n_mels>
+        input_size: !ref <wav2vec_size>
         bidirectional: True
         hidden_size: !ref <encoder_dim>
         num_layers: 2
@@ -178,6 +188,8 @@ opt_class: !name:torch.optim.Adam
     lr: !ref <lr>
     weight_decay: 0.000002
 
+wav2vec_opt_class: !name:torch.optim.Adam
+    lr: !ref <lr_wav2vec>
 
 lr_annealing_adam: !new:speechbrain.nnet.schedulers.NewBobScheduler
     initial_value: !ref <lr>
@@ -185,6 +197,10 @@ lr_annealing_adam: !new:speechbrain.nnet.schedulers.NewBobScheduler
     annealing_factor: 0.8
     patient: 0
 
+lr_annealing_wav2vec: !new:speechbrain.nnet.schedulers.NewBobScheduler
+    initial_value: !ref <lr_wav2vec>
+    improvement_threshold: 0.0025
+    annealing_factor: 0.9
 
 
 modules:
@@ -193,12 +209,12 @@ modules:
     add_rev: !ref <add_rev>
     add_noise: !ref <add_noise>
     add_rev_noise: !ref <add_rev_noise>
+    wav2vec2: !ref <wav2vec2>
     enc: !ref <enc>
     emb: !ref <emb>
     dec: !ref <dec>
     softmax: !ref <softmax>
     seq_lin: !ref <seq_lin>
-    normalize: !ref <normalize>
 
 # Cost + optimization
 seq_cost: !name:speechbrain.nnet.losses.nll_loss
@@ -213,7 +229,9 @@ checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
     checkpoints_dir: !ref <save_folder>
     recoverables:
         model: !ref <model>
+        wav2vec2: !ref <wav2vec2>
         lr_annealing_adam: !ref <lr_annealing_adam>
+        lr_annealing_wav2vec: !ref <lr_annealing_wav2vec>
         counter: !ref <epoch_counter>
 
 train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
