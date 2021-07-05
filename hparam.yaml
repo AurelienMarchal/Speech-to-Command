@@ -7,7 +7,7 @@
 # Seed needs to be set at top of yaml, before objects with parameters are made
 seed: 1234
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
-output_folder: !ref results/wav2vec_enc_dec/<seed>
+output_folder: !ref results/enc_dec/<seed>
 wer_file: !ref <output_folder>/wer.txt
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
@@ -29,7 +29,7 @@ nb_obj: 4
 
 # kfold
 
-k_fold: 1 # between 1 and 5
+k_fold: 5 # between 1 and 5
 
 # Training parameters
 number_of_epochs: 20
