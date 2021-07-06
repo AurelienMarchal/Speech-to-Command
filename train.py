@@ -105,11 +105,12 @@ class Speech2CommandBrain(sb.Brain):
 
         if stage != sb.Stage.TRAIN:
             self.error_metrics.append(uttid, predictions_seq, command_eos, length=command_eos_lens)
+            self.per_metrics.append(uttid, hyps, commands, None, command_lens, self.label_encoder.decode_ndim,)
 
         if stage != sb.Stage.TRAIN:
             
             target_words = label_encoder.decode_torch(commands)
-            predicted_words = label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2))
+            predicted_words  = label_encoder.decode_ndim(hyps)
             
             cnt = 0
             correct_pred = 0
@@ -135,6 +136,7 @@ class Speech2CommandBrain(sb.Brain):
         """Gets called at the beginning of an epoch."""
         if stage != sb.Stage.TRAIN:
             self.error_metrics = self.hparams.seq_stats()
+            self.per_metrics = self.hparams.per_stats()
             self.list_accuracy = []
 
 
