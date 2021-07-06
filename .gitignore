@@ -6,3 +6,4 @@ dataset/noise.csv
 dataset/reverb.csv
 dataset/rirs_noises.zip
 results/*
+inference_wavs/inference.json
