@@ -79,7 +79,7 @@ class Speech2CommandBrain(sb.Brain):
 
         else:
             predictions_seq, lens, hyps = predictions
-            print(hyps)
+    
 
         uttid = batch.id
         
