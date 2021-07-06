@@ -201,7 +201,7 @@ class Speech2CommandBrain(sb.Brain):
 
                 out = self.compute_forward(batch, stage=sb.Stage.TEST) 
                 predictions_seq, lens, hyps = out
-                predicted_words = label_encoder.decode_ndims(hyps)
+                predicted_words = label_encoder.decode_ndim(hyps)
                 transcripts.append(predicted_words)
     
         return transcripts
