@@ -1,13 +1,12 @@
 
 import os
 import sys
-from wave import Wave_read
 import torch
 import logging
 import speechbrain as sb
 from hyperpyyaml import load_hyperpyyaml
 from speechbrain.utils.distributed import run_on_main
-
+from tqdm import tqdm
 logger = logging.getLogger(__name__)
 
 
@@ -50,6 +49,8 @@ class Speech2CommandBrain(sb.Brain):
 
         embedded_dec_in = self.hparams.emb(command_bos)
 
+        
+        
         decoder_out, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
         
         logits = self.hparams.seq_lin(decoder_out)
@@ -59,13 +60,27 @@ class Speech2CommandBrain(sb.Brain):
 
         # Compute outputs
         #TO DO add beam searcher for VALID and TEST
+        if stage == sb.Stage.VALID:
+            hyps, scores = self.hparams.greedy_searcher(encoder_out, wav_lens)
+            return outputs, wav_lens, hyps
+        
+        elif stage == sb.Stage.TEST:
+            hyps, scores = self.hparams.beam_searcher(encoder_out, wav_lens)
+            return outputs, wav_lens, hyps
 
         return outputs, wav_lens
 
     def compute_objectives(self, predictions, batch, stage):
         """Computes the loss using command-id as label.
         """
-        predictions_seq, lens = predictions
+
+        if stage== sb.Stage.TRAIN:
+            predictions_seq, lens = predictions
+
+        else:
+            predictions_seq, lens, hyps = predictions
+            print(hyps)
+
         uttid = batch.id
         
         command_eos, command_eos_lens = batch.command_encoded_eos
@@ -83,7 +98,7 @@ class Speech2CommandBrain(sb.Brain):
 
         # compute the cost function
         loss_seq = self.hparams.seq_cost(predictions_seq, command_eos, length=command_eos_lens)
-        loss= loss_seq
+        loss = loss_seq
 
         if hasattr(self.hparams.lr_annealing_adam, "on_batch_end"):
             self.hparams.lr_annealing_adam.on_batch_end(self.optimizer)
@@ -108,8 +123,9 @@ class Speech2CommandBrain(sb.Brain):
             self.list_accuracy.append(correct_pred/cnt)
 
             if stage== sb.Stage.TEST:
-                print("\nTargets :", target_words)
-                print("Predictions :", predicted_words)
+                pass
+                #print("\nTargets :", target_words)
+                #print("Predictions :", predicted_words)
 
 
         return loss
@@ -155,6 +171,40 @@ class Speech2CommandBrain(sb.Brain):
                 {"Epoch loaded": self.hparams.epoch_counter.current},
                 test_stats=stage_stats,
             )
+    
+    def transcribe_dataset(
+        self,
+        dataset, # Must be obtained from the dataio_function
+        min_key, # We load the model with the lowest WER
+        loader_kwargs # opts for the dataloading
+    ):
+
+        # If dataset isn't a Dataloader, we create it. 
+        if not isinstance(dataset, torch.utils.data.DataLoader):
+            loader_kwargs["ckpt_prefix"] = None
+            dataset = self.make_dataloader(
+                dataset, sb.Stage.TEST, **loader_kwargs
+            )
+
+        self.on_evaluate_start(min_key=min_key) # We call the on_evaluate_start that will load the best model
+        self.modules.eval() # We set the model to eval mode (remove dropout etc)
+
+        # Now we iterate over the dataset and we simply compute_forward and decode
+        with torch.no_grad():
+
+            transcripts = []
+
+            for batch in tqdm(dataset, dynamic_ncols=True):
+                # Make sure that your compute_forward returns the predictions !!!
+                # In the case of the template, when stage = TEST, a beam search is applied 
+                # in compute_forward().
+
+                out = self.compute_forward(batch, stage=sb.Stage.TEST) 
+                predictions_seq, lens = out
+                predicted_words = label_encoder.decode_torch(torch.argmax(predictions_seq, dim=2))
+                transcripts.append(predicted_words)
+    
+        return transcripts
 
 
 def dataio_prep(hparams):
@@ -201,13 +251,11 @@ def dataio_prep(hparams):
 
     datasets = [train_data, valid_data, test_data]
     label_encoder = sb.dataio.encoder.TextEncoder()
-    #label_encoder.add_unk()
 
     # 2. Define audio pipeline:
     @sb.utils.data_pipeline.takes("wav")
     @sb.utils.data_pipeline.provides("sig")
     def audio_pipeline(wav):
-        #print(wav)
         sig = sb.dataio.dataio.read_audio(wav)
         return sig
 
@@ -298,7 +346,6 @@ if __name__ == "__main__":
 
     # Dataset IO prep: creating Dataset objects and proper encodings for phones
     train_data, valid_data, test_data, label_encoder = dataio_prep(hparams)
-    
 
 
     # Brain class initialization
@@ -327,6 +374,13 @@ if __name__ == "__main__":
         test_loader_kwargs=hparams["test_dataloader_opts"],
     )
 
+    transcribes = speaker_brain.transcribe_dataset(
+        dataset=test_data, 
+        min_key="ErrorRate", 
+        loader_kwargs=hparams["test_dataloader_opts"]
+    )
 
+    print(transcribes)
 
+    
 # Test modification

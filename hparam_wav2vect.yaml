@@ -1,5 +1,5 @@
 # ################################
-# Model: wav2vec with emb and DNN
+# Model: wav2vec with enc dec
 # Authors:
 # * Aurélien Marchal 2021
 # ################################
