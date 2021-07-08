@@ -109,13 +109,12 @@ class Speech2CommandBrain(sb.Brain):
 
         if stage != sb.Stage.TRAIN:
             
-            target_words = label_encoder.decode_torch(commands)
-            predicted_words  = label_encoder.decode_ndim(hyps)
+            target_words = self.label_encoder.decode_torch(commands)
+            predicted_words  = self.label_encoder.decode_ndim(hyps)
             
             cnt = 0
             correct_pred = 0
             for target_sen, pred_sen in zip(target_words, predicted_words):
-                pred_sen.remove('<eos>')
                 for target, pred in zip(target_sen, pred_sen):
                     if target == pred:
                         correct_pred += 1
@@ -203,7 +202,7 @@ class Speech2CommandBrain(sb.Brain):
 
                 out = self.compute_forward(batch, stage=sb.Stage.TEST) 
                 predictions_seq, lens, hyps = out
-                predicted_words = label_encoder.decode_ndim(hyps)
+                predicted_words = self.label_encoder.decode_ndim(hyps)
                 transcripts.append(predicted_words)
     
         return transcripts
@@ -358,6 +357,8 @@ if __name__ == "__main__":
         opt_class=hparams["opt_class"],
         checkpointer=hparams["checkpointer"],
     )
+
+    speaker_brain.label_encoder = label_encoder
 
 
     # Training
