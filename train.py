@@ -19,7 +19,6 @@ class Speech2CommandBrain(sb.Brain):
         if hasattr(self.hparams, "transcribing"):
             if not self.hparams.transcribing:
                 command_bos, _ = batch.command_encoded_bos
-        
         else:
             command_bos, _ = batch.command_encoded_bos
 
@@ -392,13 +391,6 @@ if __name__ == "__main__":
         test_loader_kwargs=hparams["test_dataloader_opts"],
     )
 
-    transcribes = speaker_brain.transcribe_dataset(
-        dataset=test_data, 
-        min_key="ErrorRate", 
-        loader_kwargs=hparams["test_dataloader_opts"]
-    )
-
-    print(transcribes)
 
     
 # Test modification

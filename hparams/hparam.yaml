@@ -5,7 +5,7 @@
 # ################################
 
 # Seed needs to be set at top of yaml, before objects with parameters are made
-seed: 1998
+seed: 9898
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
 output_folder: !ref results/enc_dec/<seed>
 wer_file: !ref <output_folder>/wer.txt
@@ -20,7 +20,7 @@ train_annotation: !ref <output_folder>/train.json
 valid_annotation: !ref <output_folder>/dev.json
 test_annotation: !ref <output_folder>/test.json
 skip_prep: False # Skip data preparation
-apply_data_augmentation: False # This makes cuda run out of memory for now
+apply_data_augmentation: True 
 
 nb_command: 3
 nb_prep: 8
