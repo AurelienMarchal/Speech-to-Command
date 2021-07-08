@@ -2,9 +2,9 @@ import collections
 import contextlib
 import sys
 import wave
-
+import logging
 import webrtcvad
-
+logger = logging.getLogger(__name__)
 
 def read_wave(path):
     """Reads a .wav file.
@@ -137,7 +137,7 @@ def main(aggressiveness, file_path):
     for i, segment in enumerate(segments):
         #path = 'chunk-%002d.wav' % (i,)
         path = file_path
-        print(' Writing %s' % (path,))
+        logger.info(' Writing %s' % (path,))
         write_wave(path, segment, sample_rate)
     
     return i + 1

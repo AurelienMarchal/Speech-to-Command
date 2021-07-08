@@ -15,7 +15,13 @@ class Speech2CommandBrain(sb.Brain):
     def compute_forward(self, batch, stage):
         batch = batch.to(self.device)
         wavs, wav_lens = batch.sig
-        command_bos, _ = batch.command_encoded_bos
+
+        if hasattr(self.hparams, "transcribing"):
+            if not self.hparams.transcribing:
+                command_bos, _ = batch.command_encoded_bos
+        
+        else:
+            command_bos, _ = batch.command_encoded_bos
 
         if stage == sb.Stage.TRAIN and self.hparams.apply_data_augmentation:
             # Applying the augmentation pipeline
@@ -47,9 +53,14 @@ class Speech2CommandBrain(sb.Brain):
 
         encoder_out = self.hparams.enc(feats)
 
-        embedded_dec_in = self.hparams.emb(command_bos)
+        if hasattr(self.hparams, "transcribing"):
+            if self.hparams.transcribing:
+                # if transcribing only return beam searcher results
+                hyps, scores = self.hparams.beam_searcher(encoder_out, wav_lens)
+                return hyps, wav_lens
 
-        
+
+        embedded_dec_in = self.hparams.emb(command_bos)
         
         decoder_out, _ = self.hparams.dec(embedded_dec_in, encoder_out, wav_lens)
         
@@ -180,6 +191,11 @@ class Speech2CommandBrain(sb.Brain):
         loader_kwargs # opts for the dataloading
     ):
 
+        if not hasattr(self.hparams, "transcribing") or not self.hparams.transcribing:
+            logger.warning("hparam file must have an attributed called 'transcribing' set to True " +
+            "to use the transcribe_dataset function")
+            return
+
         # If dataset isn't a Dataloader, we create it. 
         if not isinstance(dataset, torch.utils.data.DataLoader):
             loader_kwargs["ckpt_prefix"] = None
@@ -200,8 +216,7 @@ class Speech2CommandBrain(sb.Brain):
                 # In the case of the template, when stage = TEST, a beam search is applied 
                 # in compute_forward().
 
-                out = self.compute_forward(batch, stage=sb.Stage.TEST) 
-                predictions_seq, lens, hyps = out
+                hyps, lens = self.compute_forward(batch, stage=sb.Stage.TEST)
                 predicted_words = self.label_encoder.decode_ndim(hyps)
                 transcripts.append(predicted_words)
     

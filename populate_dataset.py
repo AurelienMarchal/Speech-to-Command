@@ -9,7 +9,7 @@ import pyaudio
 import wave
 import contextlib
 
-
+# Put this in haparam file
 annotation_file_json = "dataset/annotation.json"
 full_command_list_file = "full_command_list.txt"
 data_dict = "./dataset/wavs/"
