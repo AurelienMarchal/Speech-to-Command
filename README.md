@@ -32,4 +32,4 @@ You will need a trained model before you make predictions.
 
 Make sure you put the right path to the save folder of your model in the hparam_inference.yaml file.
 
-Run "python infering.py hparam_inference.yaml" and the program will ask if you want to record. When you are ready press enter and you will have 5 seconds to record your command in one go.
+Run "python infering.py hparams/hparam_inference.yaml" and the program will ask if you want to record. When you are ready press enter and you will have 5 seconds to record your command in one go.
