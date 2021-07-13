@@ -90,6 +90,8 @@ if __name__ == '__main__':
 
     filename = hparams["recording_file"]
 
+    p = pyaudio.PyAudio()  # Create an interface to PortAudio
+
     while True:
 
         inp = input("Do you wish to record ? (press 'q' and enter to quit)\n")
@@ -97,9 +99,8 @@ if __name__ == '__main__':
         if inp == 'q':
             break
 
-        p = pyaudio.PyAudio()  # Create an interface to PortAudio
-
         logger.info("Recording")
+        print(f"Recording (for {hparams['seconds']} seconds) ...")
         stream = p.open(format=hparams["sample_format"],
                         channels=hparams["channels"],
                         rate=hparams["sample_rate"],
@@ -116,8 +117,7 @@ if __name__ == '__main__':
         # Stop and close the stream 
         stream.stop_stream()
         stream.close()
-        # Terminate the PortAudio interface
-        p.terminate()
+        
 
         logger.info("Finished recording")
 
@@ -145,3 +145,6 @@ if __name__ == '__main__':
 
             print("Predictions :" + str(transcribes))
             logger.info("Predictions :" + str(transcribes))
+
+    # Terminate the PortAudio interface
+    p.terminate()

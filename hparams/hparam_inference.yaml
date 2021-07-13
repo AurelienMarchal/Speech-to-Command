@@ -5,7 +5,7 @@
 # ################################
 
 # Seed needs to be set at top of yaml, before objects with parameters are made
-seed: 1998
+seed: 9898
 __set_seed: !apply:torch.manual_seed [!ref <seed>]
 output_folder: !ref results/enc_dec/<seed>
 save_folder: !ref <output_folder>/save
@@ -45,7 +45,7 @@ n_mels: 40
 chunk: 1024
 channels: 1
 sample_format: !name:pyaudio.paInt16
-seconds: 3
+seconds: 4 # Nb of seconds to record 
 recording_file: !ref <inference_folder>/recording.wav
 
 # Outputs
