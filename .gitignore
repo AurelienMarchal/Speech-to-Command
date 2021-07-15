@@ -7,3 +7,4 @@ dataset/reverb.csv
 dataset/rirs_noises.zip
 results/*
 inference_wavs/*.wav
+split_audio/*
