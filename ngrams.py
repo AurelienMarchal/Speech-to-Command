@@ -27,4 +27,4 @@ def count_ngrams_file(file_path, n) -> Counter:
 
 
 if __name__=='__main__':
-    print(count_ngrams_file("./full_command_list.txt", 2))
+    print(count_ngrams_file("./full_command_list.txt", 1))

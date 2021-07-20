@@ -20,8 +20,8 @@ for i, chunk in enumerate(audio_chunks):
     else:
         combined += audio_chunks[i]
 
-    out_file = ".//split_audio//chunk{0}.wav".format(i)
+    out_file = "./split_audio/chunk{0}.wav".format(i)
     print("exporting", out_file)
     chunk.export(out_file, format="wav")
 
-combined.export(".//split_audio//combined.wav")
+combined.export("./split_audio/combined.wav")
