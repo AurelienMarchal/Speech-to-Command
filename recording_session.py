@@ -56,7 +56,7 @@ class Command:
         return str(self)
 
 class RecordingSession:
-    command_list_file = "full_command_list.txt"
+    command_list_file = "full_command_list_5_objects.txt"
     max_command_len = 4
     def __init__(self, recording_instance=5) -> None:
         """

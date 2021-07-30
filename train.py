@@ -56,7 +56,7 @@ class Speech2CommandBrain(sb.Brain):
             if self.hparams.transcribing:
                 # if transcribing only return beam searcher results
                 hyps, scores = self.hparams.beam_searcher(encoder_out, wav_lens)
-                return hyps, wav_lens
+                return hyps, scores, wav_lens
 
 
         embedded_dec_in = self.hparams.emb(command_bos)
@@ -69,7 +69,6 @@ class Speech2CommandBrain(sb.Brain):
 
 
         # Compute outputs
-        #TO DO add beam searcher for VALID and TEST
         if stage == sb.Stage.VALID:
             hyps, scores = self.hparams.greedy_searcher(encoder_out, wav_lens)
             return outputs, wav_lens, hyps
@@ -215,9 +214,10 @@ class Speech2CommandBrain(sb.Brain):
                 # In the case of the template, when stage = TEST, a beam search is applied 
                 # in compute_forward().
 
-                hyps, lens = self.compute_forward(batch, stage=sb.Stage.TEST)
+                hyps, scores, lens = self.compute_forward(batch, stage=sb.Stage.TEST)
                 predicted_words = self.label_encoder.decode_ndim(hyps)
                 transcripts.append(predicted_words)
+                print("Score :", torch.pow(10, scores))
     
         return transcripts
 

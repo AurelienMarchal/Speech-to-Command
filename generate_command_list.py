@@ -1,11 +1,11 @@
 import json
 
-objects = ['red', 'blue', 'green', 'yellow']
+objects = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
 
 with open('commands.json') as command_file:
     commands = json.load(command_file)
 
-command_list_file = open('full_command_list.txt', 'w')
+command_list_file = open('full_command_list_6_objects.txt', 'w')
 count = 0
 for command in commands:
     for syntax in commands[command]['syntaxs']:
