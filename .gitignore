@@ -8,3 +8,4 @@ dataset/rirs_noises.zip
 results/*
 inference_wavs/*.wav
 split_audio/*
+total_recording_time.py
