@@ -1,7 +1,7 @@
 # Speech-to-Command
 Internship project 2021
 
-READ THE FINAL REPORT FOR ALL THE INFORMATION
+READ THE FINAL REPORT (Final_Report_Internship_2021_Aurelien_Marchal.pdf) FOR MORE INFORMATION !!!!!!!
 
 
 # Populate dataset
