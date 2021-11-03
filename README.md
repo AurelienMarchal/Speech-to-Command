@@ -1,6 +1,8 @@
 # Speech-to-Command
 Internship project 2021
 
+READ THE FINAL REPORT FOR ALL THE INFORMATION
+
 
 # Populate dataset
 
